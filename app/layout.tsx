@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Orbitrix",
   description: "Pioneering innovation at the intersection of techology & exploration",
-  icons: "./favico.jpg"
+  icons: "./favicon.png"
 };
 
 export default function RootLayout({
