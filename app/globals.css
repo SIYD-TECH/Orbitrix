@@ -36,6 +36,14 @@
   @apply flex justify-between items-center;
 }
 
+@utility hero-section-overlay {
+  @apply absolute bottom-0 left-0 right-0 lg:top-[25%] max-sm:top-[90%] z-0 px-6 md:px-15 lg:px-20 lg:object-cover lg:object-[70%_100%] font-bold font-inter text-white;
+}
+
+@utility comps-img-section {
+  @apply pt-30 pb-50 bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 sm:px-30 md:px-20 lg:px-20 gap-y-6;
+}
+
 @utility comp-section-box {
   @apply absolute top-0 bottom-0 left-0 right-0 bg-black/80 hover:bg-transparent active:bg-transparent cursor-pointer;
 }

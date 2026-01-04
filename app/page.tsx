@@ -1,5 +1,10 @@
+"use client";
+
+import { heroText } from "@/animations/hero-text"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
+import MotionWrapper from "@/components/MotionWrapper";
+import { motion } from "framer-motion"
 
 const page = () => {
   return (
@@ -7,25 +12,37 @@ const page = () => {
       <Header theme="dark" />
 
       {/* HERO SECTION */}
-      <section className="relative lg:mt-0 max-md:pt-60 max-md:bg-black">
+      <section className="relative lg:mt-0 max-md:pt-75 max-md:bg-black">
         <img src="/hero.jpeg" className="w-full lg:object-cover" />
 
-        <div className="absolute bottom-0 left-0 right-0 lg:top-[25%] max-sm:top-[90%] z-0 px-6 md:px-15 lg:px-20 lg:object-cover lg:object-[70%_100%] font-bold font-inter text-white">
-          <p className="md:text-lg font-outfit mb-2 lg:mb-4">INNOVATE. AUTOMATE. ELEVATE</p>
-          <h1 className="lg:mt-0 text-4xl md:text-5xl lg:text-8xl md:text-6xl flex-start">
-            <span>WE</span>
-            <img src="/astro.png" className="h-15 md:h-18 lg:h-25" />
-            <span>BUILD</span>
-            
-          </h1>
-          <h1 className="mt-4 text-4xl md:text-5xl lg:text-8xl md:text-6xl">
-            WHAT'S
-            <span className="sm:hidden cl
-            ml-3">NEXT</span>
-          </h1>
-          <h1 className="mt-4 text-4xl md:text-5xl lg:text-8xl md:text-6xl max-sm:hidden">
-            NEXT
-          </h1>
+        <div className="hero-section-overlay">
+          <MotionWrapper variants={heroText}>
+            <p className="md:text-lg font-outfit mb-2 lg:mb-4">
+              INNOVATE. AUTOMATE. ELEVATE
+            </p>
+          </MotionWrapper>
+
+          <MotionWrapper variants={heroText}>
+            <h1 className="lg:mt-0 text-4xl md:text-5xl lg:text-8xl md:text-6xl flex-start">
+              <span>WE</span>
+              <img src="/astro.png" className="h-15 md:h-18 lg:h-25" />
+              <span>BUILD</span>
+            </h1>
+          </MotionWrapper>   
+
+          <MotionWrapper variants={heroText}>
+            <h1 className="mt-4 text-4xl md:text-5xl lg:text-8xl md:text-6xl">
+              WHAT'S
+              <span className="sm:hidden cl
+              ml-3">NEXT</span>
+            </h1>
+          </MotionWrapper>
+
+          <MotionWrapper variants={heroText}>
+            <h1 className="mt-4 text-4xl md:text-5xl lg:text-8xl md:text-6xl max-sm:hidden">
+              NEXT
+            </h1>
+          </MotionWrapper>
         </div>
       </section>
 
@@ -81,7 +98,7 @@ const page = () => {
       </section>
 
       {/* COMPANIES SECTION */}
-      <section className="pt-30 pb-50 bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 sm:px-30 md:px-20 lg:px-20 gap-y-6">
+      <section className="comps-img-section">
         <div className="flex-center relative">
           <img src="space-2.png" className="h-18" />
 

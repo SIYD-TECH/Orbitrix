@@ -13,7 +13,7 @@ const ServicePage = () => {
       <Header theme="light" />
 
       <div>
-        <h1 className="text-center font-outfit text-2xl md:text-4xl lg:text-5xl">About Us</h1>
+        <h1 className="text-center font-outfit text-2xl md:text-4xl lg:text-5xl">Our Services</h1>
         <ChevronDown className="mx-auto" />
       </div>
 
