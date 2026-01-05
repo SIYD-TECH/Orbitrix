@@ -62,7 +62,7 @@ const ContactPage = () => {
           <div className="font-jsl text-gray-500 text-[15px] md:text-[16px] flex-start gap-3 mt-4">
             <Mail />
             <p>
-              orbitriximpactingafrica@gmail.com
+              orbitrixng@gmail.com
             </p>
           </div>
           
