@@ -1,4 +1,4 @@
-import { mobileNav, mobileNavLinks, mobileNavSocials } from "@/animations/mobile-nav";
+import { desktopInfo, desktopNav, desktopNavLinks, mobileNav, mobileNavLinks, mobileNavSocials } from "@/animations/nav";
 import { hrVariant } from "@/animations/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, X } from "lucide-react";
@@ -117,7 +117,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
             initial="hidden"
             animate="show"
             variants={hrVariant}
-            className="text-gray-800 mt-8" 
+            className="text-gray-700 mt-8" 
           />
 
             {/* socials */}
@@ -157,7 +157,12 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
       </AnimatePresence>
 
       {/* large screens */}
-      <div className="max-md:hidden fixed z-50 top-0 left-0 right-0 bottom-0 ">
+      <motion.div
+        initial="hidden"
+        animate="show"
+        variants={desktopNav} 
+        className="max-md:hidden fixed z-50 top-0 left-0 right-0 bottom-0 "
+      >
 
         <div className="relative h-full w-full">
           <div className={`${theme === "dark" ? "bg-dark" : "bg-white border-l-1 border-l-gray-200"} absolute top-0 bottom-0 right-0 w-[400px] pt-11 px-12`}>
@@ -177,47 +182,69 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
             {/* socials */}
             <div className={`${theme == "dark" ? "text-white" : "text-black"} font-outfit mt-28`}>
 
-              <div className="flex-start gap-6 cursor-pointer hover:text-blue-400">
+              <motion.div
+                variants={desktopNavLinks} 
+                className="flex-start gap-6 cursor-pointer hover:text-blue-400"
+              >
                 <ImFacebook />
                 <p className="text-xl">Facebook</p>
-              </div>
+              </motion.div>
 
-              <div 
+              <motion.div
+                variants={desktopNavLinks} 
                 onClick={toX} 
                 className="flex-start gap-6 mt-8 cursor-pointer hover:text-gray-400"
               >
                 <FaXTwitter />
                 <p className="text-xl">Twitter</p>
-              </div>
+              </motion.div>
 
-              <div 
+              <motion.div
+                variants={desktopNavLinks} 
                 onClick={toLinkedIn} 
                 className="flex-start gap-6 mt-8 cursor-pointer hover:text-blue-600"
               >
                 <FaLinkedin size={20} />
                 <p className="text-xl">LinkedIn</p>
-              </div>
+              </motion.div>
 
-              <div 
+              <motion.div
+                variants={desktopNavLinks} 
                 onClick={toInstagram} 
                 className="flex-start gap-6 mt-8 cursor-pointer hover:text-purple-500"
               >
                 <FaInstagram />
                 <p className="text-xl">Instagram</p>
-              </div>
+              </motion.div>
             </div>
 
-            <hr className="mt-28 text-gray-800" />
+            <motion.hr
+              initial="hidden"
+              animate="show"
+              variants={hrVariant}
+              className="mt-28 text-gray-700" 
+            />
 
             <div className="mt-10">
-              <p className={`${theme == "dark" ? "text-white" : "text-black"} font-outfit text-2xl`}>+1 840 841 25 69</p>
-              <p className="text-gray-400 font-outfit mt-2">orbitrixng@gmail.com</p>
+              <motion.p
+                variants={desktopInfo} 
+                className={`${theme == "dark" ? "text-white" : "text-black"} font-outfit text-2xl`}
+              >
+                +1 840 841 25 69
+              </motion.p>
+
+              <motion.p
+                variants={desktopInfo} 
+                className="text-gray-400 font-outfit mt-2"
+              >
+                orbitrixng@gmail.com
+              </motion.p>
             </div>
 
           </div>
         </div>
 
-      </div>
+      </motion.div>
     </>
   )
 }

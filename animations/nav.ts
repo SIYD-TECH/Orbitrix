@@ -1,5 +1,47 @@
 import { Variants } from "framer-motion";
 
+export const desktopNav: Variants = {
+  hidden: { opacity: 0, x: 100 },
+  show: { 
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 0.3,
+      ease: "easeInOut",
+    }
+  }
+}
+
+export const desktopNavLinks: Variants= {
+  hidden: { 
+    opacity: 0, 
+    y: 30,
+  },
+  show: { 
+    opacity: 1, 
+    y: 0,  
+    transition: { 
+      duration: 0.6, 
+      ease: "easeInOut"
+    }
+  }
+}
+
+export const desktopInfo: Variants = {
+  hidden: {
+    opacity: 0,
+    filter: "blur(8px)"
+  },
+  show: {
+    opacity: 1,
+    filter: "blur(0px)",
+    transition: {
+      duration: 1,
+      ease: "easeInOut"
+    }
+  }
+}
+
 export const mobileNav: Variants = {
   hidden: { y: -100, opacity: 0 },
   show: {
