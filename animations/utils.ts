@@ -6,7 +6,7 @@ export const hrVariant: Variants = {
     width: "100%", 
     opacity: 1, 
     transition: { 
-      duration: 1.8, 
+      duration: 2.5, 
       ease: "easeInOut"
     }
   }

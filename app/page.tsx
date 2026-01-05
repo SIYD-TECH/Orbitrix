@@ -17,7 +17,7 @@ const page = () => {
 
         <div className="hero-section-overlay">
           <MotionWrapper variants={heroText}>
-            <p className="md:text-lg font-outfit mb-2 lg:mb-4">
+            <p className="text-sm md:text-lg font-outfit mb-2 lg:mb-4">
               INNOVATE. AUTOMATE. ELEVATE
             </p>
           </MotionWrapper>
