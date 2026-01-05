@@ -1,16 +1,20 @@
 import { Variants } from "framer-motion";
 
 export const mobileNav: Variants = {
-  hidden: { clipPath: "polygon(100% 0, 100% 0, 100% 0, 100% 0)", opacity: 0 },
+  hidden: { y: -100, opacity: 0 },
   show: {
-    clipPath: "polygon(100% 0, 0 0, 0 100%, 100% 100%)",
+    y: 0,
     opacity: 1,
     transition: { duration: 0.6, ease: "easeInOut", when: "beforeChildren", staggerChildren: 0.05 }
   },
   exit: {
-    clipPath: "polygon(100% 0, 100% 0, 100% 0, 100% 0)",
+    y: -100,
     opacity: 0,
-    transition: { duration: 0.5, ease: "easeInOut" }
+    transition: { 
+      duration: 0.5, 
+      staggerChildren: 0.2,
+      when: "afterChildren" 
+    }
   }
 }; 
 

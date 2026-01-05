@@ -39,6 +39,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
       {/* small screens */}
       <AnimatePresence>
         <motion.div
+          key="mobile-nav"
           initial="hidden"
           animate="show"
           exit="exit"
