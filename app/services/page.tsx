@@ -183,10 +183,10 @@ const ServicePage = () => {
         </div>
 
         <div>
-          <div className="px-6 md:px-10 xl:px-20 mt-6">
+          <div className="px-6 mt-6">
             <p className="font-outfit text-gray-700 font-bold text-[13px] lg:text-md">QUESTIONS & ANSWERS</p>
 
-            <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl lg:w-[60%] mt-2">What you need to know about our tours</h1>
+            <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl mt-2">What you need to know about our tours</h1>
           </div>
 
           {/* accordion */}
