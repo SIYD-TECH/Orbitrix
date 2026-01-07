@@ -48,14 +48,14 @@ const ContactPage = () => {
           <div className="font-jsl text-gray-500 text-[15px] md:text-[16px] flex-start gap-3 mt-8">
             <MapPin />
             <p>
-              785 15h Street, Office 478 Berlin
+              Ojurayo Street, Oshogun Bus Stop, Alapere Estate, Lagos, Nigeria
             </p>
           </div>
 
           <div className="text-gray-500 text-[15px] md:text-[16px] flex-start gap-3 mt-6">
             <Smartphone />
             <p className="font-inter font-bold text-black">
-               +1 800 555 25 69
+               +234 813 750 8176
             </p>
           </div>
 

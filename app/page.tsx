@@ -1,6 +1,7 @@
 "use client";
 
-import { heroText } from "@/animations/hero-text"
+import { ghostVariants, slideUpVariants } from "@/animations/contents";
+import { heroText } from "@/animations/hero"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import MotionWrapper from "@/components/MotionWrapper";
@@ -47,9 +48,16 @@ const page = () => {
       </section>
 
       {/* SPACE SECTION */}
-      <section className="bg-black max-md:pt-70 max-lg:pt-20 px-6">
+      <section
+        className="bg-black max-md:pt-70 max-lg:pt-20 px-6"
+      >
         {/* mobile */}
-        <div className="sm:hidden">
+        <motion.div 
+          initial="hidden"
+          whileInView="show"
+          variants={slideUpVariants} 
+          className="sm:hidden"
+        >
           <div className="relative p-2">
             <img src="/guillermo.jpg" className="absolute h-[300px] w-[350px] right-[-10px]" />
             <img src="/history.jpg" className="absolute top-[150px] left-0 h-[400px]" />
@@ -62,10 +70,15 @@ const page = () => {
           <p className="text-gray-300 text-[15px] w-[80%] leading-[25px] font-jsl mt-4">
             Driven by innovation and built for impact, we turn complex technology into practical solutions that move businesses forward.
           </p>
-        </div>
+        </motion.div>
 
         {/* desktop */}
-        <div className="max-sm:hidden grid grid-cols-2 gap-6 md:w-[80%] mx-auto">
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          variants={slideUpVariants} 
+          className="max-sm:hidden grid grid-cols-2 gap-6 md:w-[80%] mx-auto"
+        >
           <div className="flex-center">
             <img src="/guillermo.jpg" className="w-full lg:w-[500px]" />
           </div>
@@ -81,12 +94,13 @@ const page = () => {
               Driven by innovation and built for impact, we turn complex technology into practical solutions that move businesses forward.
             </p>
           </div>
-        </div>
+        </motion.div>
       </section>
 
 
       {/* MARQUEE SECTION */}
-      <section className="pt-30 bg-black">
+      <section 
+        className="pt-30 bg-black">
         <img src="/space-man.png" className="max-sm:h-60 max-sm:object-center max-sm:object-cover" />
 
         <div className="marquee">
@@ -99,37 +113,71 @@ const page = () => {
 
       {/* COMPANIES SECTION */}
       <section className="comps-img-section">
-        <div className="flex-center relative">
+        <motion.div 
+          initial="hidden"
+          whileInView="show"
+          variants={ghostVariants}
+          className="flex-center relative"
+        >
           <img src="space-2.png" className="h-18" />
 
           <div className="comp-section-box"></div>
-        </div>
+        </motion.div>
 
-        <div className="flex-center relative">
+        <motion.div 
+          initial="hidden"
+          whileInView="show"
+          variants={ghostVariants}
+          className="flex-center relative"
+        >
           <img src="space-com.png" className="h-18" />
 
           <div className="comp-section-box"></div>
-        </div>
-        <div className="flex-center relative">
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          variants={ghostVariants}
+          className="flex-center relative"
+        >
           <img src="space.png" className="h-18" />
 
           <div className="comp-section-box"></div>
-        </div>
-        <div className="flex-center relative">
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          variants={ghostVariants}
+          className="flex-center relative"
+        >
           <img src="axiom.png" className="h-18" />
 
           <div className="comp-section-box"></div>
-        </div>
-        <div className="flex-center relative">
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          variants={ghostVariants}
+          className="flex-center relative"
+        >
           <img src="esa.png" className="h-18" />
 
           <div className="comp-section-box"></div>
-        </div>
-        <div className="flex-center relative">
+        </motion.div>
+
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          variants={ghostVariants} 
+          className="flex-center relative"
+        >
           <img src="nasa.png" className="h-18" />
 
           <div className="comp-section-box"></div>
-        </div>
+        </motion.div>
       </section>
 
       {/* FOOTER */}
