@@ -1,6 +1,7 @@
+import { rotateVariants } from "@/animations/contents";
 import { desktopInfo, desktopNav, desktopNavLinks, mobileNav, mobileNavLinks, mobileNavSocials } from "@/animations/nav";
 import { hrVariant } from "@/animations/utils";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, hover, motion } from "framer-motion";
 import { ArrowRight, X } from "lucide-react";
 import Link from "next/link";
 import { redirect, usePathname } from "next/navigation";
@@ -175,7 +176,13 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
                 className={`${theme == "dark" ? "bg-gray-900" : "bg-gray-100"} cursor-pointer p-3 rounded-full`} 
                 onClick={closeNavbar}
               >
-                <X color={theme === "dark" ? "white" : "black"} size={25} />
+                <motion.div
+                  initial="rest"
+                  whileHover="hover"
+                  variants={rotateVariants}
+                >
+                  <X color={theme === "dark" ? "white" : "black"} size={25} />
+                </motion.div>
               </div>
             </div>
 

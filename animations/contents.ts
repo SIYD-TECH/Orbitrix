@@ -23,3 +23,9 @@ export const ghostVariants: Variants = {
     }
   }
 }
+
+export const rotateVariants: Variants = {
+  rest: { rotate: 0 },
+  hover: { rotate: 100 }
+}
+
