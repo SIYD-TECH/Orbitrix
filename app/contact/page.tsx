@@ -46,7 +46,7 @@ const ContactPage = () => {
           </p>
 
           <div className="font-jsl text-gray-500 text-[15px] md:text-[16px] flex-start gap-3 mt-8">
-            <MapPin />
+            <MapPin className="flex-none" />
             <p>
               Ojurayo Street, Oshogun Bus Stop, Alapere Estate, Lagos, Nigeria
             </p>
