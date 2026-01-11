@@ -4,8 +4,39 @@ import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header"
 import { ArrowRight, ChevronDown } from "lucide-react"
+import { useEffect, useState } from "react";
+
+const words = ["cosmic journey", "astral flight", "galactic adenture"]
 
 const AboutPage = () => {
+  const [text, setText] = useState<string>("")
+  const [wordIndex, setWordIndex] = useState<number>(0)
+  const [isDeleting, setIsDeleting] = useState<boolean>(false)
+
+  useEffect(() => {
+    const currentWord = words[wordIndex];
+    const speed = isDeleting ? 50 : 150;
+
+    const timeout = setTimeout(() => {
+      setText((prev) => 
+        isDeleting 
+          ? currentWord.slice(0, prev.length - 1) 
+          : currentWord.slice(0, prev.length + 1)
+      );
+
+      if (!isDeleting && text === currentWord) {
+        setTimeout(() => setIsDeleting(true), 800)
+      };
+
+      if (isDeleting && text === "") {
+        setIsDeleting(false)
+        setWordIndex((prev) => (prev + 1) % words.length);
+      }
+    }, speed)
+
+    return () => clearTimeout(timeout)  
+  }, [text, isDeleting, wordIndex])
+
   return (
     <>
       <Header theme="light" />
@@ -67,7 +98,9 @@ const AboutPage = () => {
         <p className="font-jsl text-center text-[14px] font-bold">WHAT WE OFFER</p>
 
         <h1 className="mt-2 md:mt-4 lg:mt-6 text-center font-jsans w-[85%] sm:w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl lg:font-bold xl:text-5xl">
-          Adventure beyond the stars, adrenaline that defies gravity – welcome to our cosmic journey
+          <span>Adventure beyond the stars, adrenaline that defies gravity – welcome to our</span>
+          <span className="border-b-2 pb-1 ml-2">{text}</span>
+          <span className="ml-1 animate-blink">|</span>
         </h1>
       </section>
 

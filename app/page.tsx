@@ -55,7 +55,7 @@ const page = () => {
         <motion.div 
           initial="hidden"
           whileInView="show"
-          variants={slideUpVariants} 
+          variants={ghostVariants} 
           className="sm:hidden"
         >
           <div className="relative p-2">
