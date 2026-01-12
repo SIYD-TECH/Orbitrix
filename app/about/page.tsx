@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header"
 import { ArrowRight, ChevronDown } from "lucide-react"
 import { useEffect, useState } from "react";
+import { FcIdea } from "react-icons/fc";
+import { FiTarget } from "react-icons/fi";
 
 const words = ["cosmic journey", "astral flight", "galactic adenture"]
 
@@ -92,8 +94,29 @@ const AboutPage = () => {
 
       </section>
 
+      {/* 2nd section  */}
+      <section 
+        className="bg-gray-50 pt-30 lg:pt-40 grid gap-8 grid-cols-1 sm:px-10 md:grid-cols-2 px-6 md:px-20 xl:px-30"
+      >
+        <div className="bg-white p-8 rounded-lg border-1 border-gray-100">
+          <FcIdea size={40} className="animate-blink-slow" />
+          <h1 className="font-jsans text-2xl md:text-3xl lg:text-4xl mt-4">Our Vision</h1>
+          <p className="mt-4 font-jsl text-gray-600 max-sm:text-sm leading-[26px]">
+            To become a global leader in applied AI, Robotics, and connected systems by building practical, trustworthy solutions that shape the future of industries and redefine how technology is experienced
+          </p>
+        </div>
 
-      {/* 2nd Section */}
+        <div className="bg-white p-8 rounded-lg border-1 border-gray-100">
+          <FiTarget size={38} color="blue" className="animate-blink-slow" />
+          <h1 className="font-jsans text-2xl md:text-3xl lg:text-4xl mt-4">Our Mission</h1>
+          <p className="mt-4 font-jsl text-gray-600 max-sm:text-sm leading-[26px]">
+            To design and deploy intelligent, secure and interconnected technologies that help businesses solve real-world problems, scale efficiently, and operate with confidence in a rapidly evolving digital landscape
+          </p>
+        </div>
+      </section>
+
+
+      {/* 3rd Section */}
       <section className="bg-gray-50 pt-20 sm:pt-30">
         <p className="font-jsl text-center text-[14px] font-bold">WHAT WE OFFER</p>
 
@@ -105,7 +128,7 @@ const AboutPage = () => {
       </section>
 
 
-      {/* 3rd Section */}
+      {/* 4th Section */}
       <section className="bg-gray-50 pt-10 sm:pt-20">
         <p className="font-jsans text-center">Peter Bowman</p>
         <p className="font-jsl text-gray-500 text-center text-sm">Creative Director</p>
