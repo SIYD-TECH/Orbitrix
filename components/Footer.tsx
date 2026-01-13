@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
 
             <div className={isActive("/shop") ? "footer-nav-active" : "footer-nav"}>
-              <Link href="/shop">
+              <Link href="/">
                 Shop
               </Link>
             </div>
