@@ -114,6 +114,21 @@
   animation: blink 4s infinite;
 }
 
+.animate-jump {
+  animation: jump 1s infinite;
+}
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(-10%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(5%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
 @keyframes blink {
   0%, 50%, 100% {
     opacity: 1;

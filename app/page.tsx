@@ -26,7 +26,9 @@ const page = () => {
           <MotionWrapper variants={heroText}>
             <h1 className="lg:mt-0 text-4xl md:text-5xl lg:text-8xl md:text-6xl flex-start">
               <span>WE</span>
-              <img src="/astro.png" className="h-15 md:h-18 lg:h-25" />
+
+              <img src="/astro.png" className="animate-jump h-15 md:h-18 lg:h-25" />
+
               <span>BUILD</span>
             </h1>
           </MotionWrapper>   
