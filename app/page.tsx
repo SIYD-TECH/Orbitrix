@@ -6,8 +6,39 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import MotionWrapper from "@/components/MotionWrapper";
 import { motion } from "framer-motion"
+import { useEffect, useState } from "react";
+
+const text = "INNOVATE. AUTOMATE. ELEVATE"
 
 const page = () => {
+  const [displayedText, setDisplayedText] = useState('')
+  const [isDeleting, setIsDeleting] = useState(false)
+  const [index, setIndex] = useState(0)
+
+  useEffect(() => {
+    const speed = isDeleting ? 50 : 100
+
+    const timeout = setTimeout(() => {
+      if (!isDeleting) {
+        setDisplayedText(text.slice(0, index + 1))
+        setIndex(index + 1)
+
+        if (index === text.length) {
+          setTimeout(() => setIsDeleting(true), 1000)
+        }
+      } else {
+        setDisplayedText(text.slice(0, index - 1))
+        setIndex(index - 1)
+
+        if (index === 0) {
+          setIsDeleting(false)
+        }
+      }
+    }, speed)
+
+    return () => clearTimeout(timeout)
+  }, [index, isDeleting])
+
   return (
     <main>
       <Header theme="dark" />
@@ -19,7 +50,8 @@ const page = () => {
         <div className="hero-section-overlay">
           <MotionWrapper variants={heroText}>
             <p className="text-sm md:text-lg font-outfit mb-2 lg:mb-4">
-              INNOVATE. AUTOMATE. ELEVATE
+              <span>{displayedText}</span>
+              <span className="ml-1 animate-blink text-lg lg:text-2xl">|</span>
             </p>
           </MotionWrapper>
 
