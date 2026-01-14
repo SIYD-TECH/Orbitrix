@@ -5,12 +5,14 @@ import { heroText } from "@/animations/hero"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import MotionWrapper from "@/components/MotionWrapper";
+import VideoModal from "@/components/VideoModal";
 import { motion } from "framer-motion"
 import { useEffect, useState } from "react";
 
 const text = "INNOVATE. AUTOMATE. ELEVATE"
 
 const page = () => {
+  const [videoModalActive, setVideoModalActive] = useState<boolean>(false)
   const [displayedText, setDisplayedText] = useState('')
   const [isDeleting, setIsDeleting] = useState(false)
   const [index, setIndex] = useState(0)
@@ -42,6 +44,7 @@ const page = () => {
   return (
     <main>
       <Header theme="dark" />
+      {videoModalActive && <VideoModal setVideoModalActive={setVideoModalActive} />}
 
       {/* HERO SECTION */}
       <section className="relative lg:mt-0 max-md:pt-75 max-md:bg-black">
@@ -134,8 +137,23 @@ const page = () => {
 
       {/* MARQUEE SECTION */}
       <section 
-        className="pt-30 bg-black">
-        <img src="/space-man.png" className="max-sm:h-60 max-sm:object-center max-sm:object-cover" />
+        className="pt-30 bg-black"
+      >
+        <div className="relative">
+          <div
+            onClick={() => setVideoModalActive(true)} 
+            className="absolute font-jsans top-0 left-0 bottom-0 right-0 flex-center"
+          >
+            <div className="h-18 w-18 md:h-22 md:w-22 cursor-pointer border-2 flex-center rounded-full border-white text-white">
+              Play
+            </div>
+          </div>
+
+          <img 
+            src="/space-man.png" 
+            className="max-sm:h-60 max-sm:object-center max-sm:object-cover" 
+          />
+        </div>
 
         <div className="marquee">
           <h1 className="marquee-content font-outfit text-5xl lg:text-8xl md:text-7xl mt-6 text-white"
