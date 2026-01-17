@@ -158,7 +158,7 @@ const page = () => {
         <div className="marquee">
           <h1 className="marquee-content font-outfit text-5xl lg:text-8xl md:text-7xl mt-6 text-white"
           >
-            ROBOTICS, AI & DIGITAL INNOVATION
+            LOGISTICS DRONES, ROBOTICS, AI & DIGITAL INNOVATION
           </h1>
         </div>
       </section>
