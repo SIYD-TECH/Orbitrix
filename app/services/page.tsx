@@ -124,7 +124,7 @@ const ServicePage = () => {
           </div>
 
           <div className="px-6 py-10 bg-white border-1 border-stone-300">
-            <img src="/robot-icon.png" className="h-19 lg:h-30 mx-auto" />
+            <img src="/robot-icon.png" className="h-19 lg:h-20 mx-auto" />
 
             <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Humanoid Robots</h1>
 
