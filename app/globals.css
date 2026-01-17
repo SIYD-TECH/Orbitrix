@@ -115,7 +115,7 @@
 }
 
 .animate-jump {
-  animation: jump 1.5s infinite;
+  animation: jump 3s infinite;
 }
 
 @keyframes jump {

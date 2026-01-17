@@ -1,21 +1,21 @@
 "use client";
 
 import { ghostVariants, slideUpVariants } from "@/animations/contents";
-import { heroText } from "@/animations/hero"
-import Footer from "@/components/Footer"
-import Header from "@/components/Header"
+import { heroText } from "@/animations/hero";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import MotionWrapper from "@/components/MotionWrapper";
 import VideoModal from "@/components/VideoModal";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const text = "INNOVATE. AUTOMATE. ELEVATE"
+const text = "INNOVATE. AUTOMATE. ELEVATE";
 
 const page = () => {
   const [videoModalActive, setVideoModalActive] = useState<boolean>(false)
-  const [displayedText, setDisplayedText] = useState('')
-  const [isDeleting, setIsDeleting] = useState(false)
-  const [index, setIndex] = useState(0)
+  const [displayedText, setDisplayedText] = useState('');
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const speed = isDeleting ? 50 : 100
