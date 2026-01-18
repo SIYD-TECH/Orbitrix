@@ -92,7 +92,7 @@ const page = () => {
         <motion.div 
           initial="hidden"
           whileInView="show"
-          variants={ghostVariants} 
+          variants={slideUpVariants} 
           className="sm:hidden"
         >
           <div className="relative p-2">
@@ -158,7 +158,7 @@ const page = () => {
         <div className="marquee">
           <h1 className="marquee-content font-outfit text-5xl lg:text-8xl md:text-7xl mt-6 text-white"
           >
-            LOGISTICS DRONES, ROBOTICS, AI & DIGITAL INNOVATION
+            ROBOTICS, DRONES, SPACE EXPLORATION, BIOTECHNOLOGY
           </h1>
         </div>
       </section>

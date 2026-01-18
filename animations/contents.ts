@@ -1,7 +1,7 @@
 import { Variants } from "framer-motion";
 
 export const slideUpVariants: Variants = {
-  hidden: { opacity: 0, y: 70 },
+  hidden: { opacity: 0, y: 100 },
   show: {
     opacity: 1,
     y: 0,
