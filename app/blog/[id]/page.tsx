@@ -24,7 +24,7 @@ const Blog = () => {
 
       {/* hero */}
       <div className="relative">
-        <img src={blogPost?.img} className="h-[440px] md:h-[510px] md:h-[550px] xl:h-[600px] w-full object-center object-cover" />
+        <img src={blogPost?.img} className="h-110 md:h-[510px] md:h-[550px] xl:h-[600px] w-full object-center object-cover" />
 
         <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent from-0% via-black/50 via-40% to-black to-100%">
           <div className="bottom-0 absolute p-4 xl:px-30">

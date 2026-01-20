@@ -66,7 +66,7 @@ const DroneSpeed = () => {
           A different way to move what matters.
         </p>
 
-        <div className='w-20 mx-auto h-[2px] bg-gray-500 mt-12'></div>
+        <div className='w-20 mx-auto h-0.5 bg-gray-500 mt-12'></div>
 
         <p className='font-outfit text-gray-600 mt-12 text-center italic font-bold'>
           Orbitrix Nigeria – Pioneering innovation at the intersection of technology & exploration.
