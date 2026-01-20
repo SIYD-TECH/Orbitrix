@@ -1,6 +1,7 @@
 "use client";
 
 import BlogContent from "@/components/BlogContent";
+import BlogHeader from "@/components/BlogHeader";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { blogs } from "@/data/blogs";
@@ -19,7 +20,7 @@ const Blog = () => {
 
   return (
     <main className="bg-gray-50 pb">
-      <Header theme="dark" />
+      <BlogHeader theme="light" />
 
       {/* hero */}
       <div className="relative">
@@ -27,7 +28,9 @@ const Blog = () => {
 
         <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent from-0% via-black/50 via-40% to-black to-100%">
           <div className="bottom-0 absolute p-4 xl:px-30">
-            <p className="font-outfit py-1 px-4 bg-gray-700 text-white rounded-full text-[12px] inline-block">TRENDING</p>
+            <p className="font-outfit py-1 px-4 bg-gray-700 text-white rounded-full text-[12px] inline-block">
+              TRENDING
+            </p>
 
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-outfit mt-2 md:mt-4 lg:mt-6">{blogPost?.title}</h1>
 

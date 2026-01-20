@@ -6,9 +6,8 @@ import Navbar from "./Navbar";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-const Header = ({ theme }: { theme: "light" | "dark" }) => {
+const BlogHeader = ({ theme }: { theme: "light" | "dark" }) => {
   const [navbarActive, setNavbarActive] = useState<boolean>(false)
-
   const pathname = usePathname()
   
   const isActive = (href: string) => pathname === href;
@@ -18,7 +17,7 @@ const Header = ({ theme }: { theme: "light" | "dark" }) => {
   }
 
   return (
-    <header className={`${theme == "light" ? "bg-white border border-b-gray-100" : "bg-black/50"} fixed top-0 left-0 right-0 p-5 lg:px-18 lg:py-9 flex-between z-20`}>
+    <header className={`${theme == "light" ? "bg-white border-b border-b-gray-100" : "bg-black/50"} p-5 lg:px-18 lg:py-9 flex-between z-20`}>
       {navbarActive && <Navbar theme={theme} setNavbarActive={setNavbarActive} />}
 
       <div>
@@ -111,4 +110,4 @@ const Header = ({ theme }: { theme: "light" | "dark" }) => {
   )
 }
 
-export default Header
+export default BlogHeader

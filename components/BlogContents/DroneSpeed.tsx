@@ -8,11 +8,11 @@ const DroneSpeed = () => {
           Sometimes, the challenge isn't traffic. It's distance
         </p>
 
-        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>
           It's a situation where something small but important is needed urgently. A medical supply for a local clinic. A replacement part for a small business trying to stay open. A document or package that shouldn't wait until "tomorrow".
         </p>
 
-        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>
           In moments like these, time stretches. Options feel limited. And people are left adapting to systems that weren't designed for urgency.
         </p>
         
@@ -20,15 +20,15 @@ const DroneSpeed = () => {
           At Orbitrix, we began thinking differently.
         </p>
 
-        <p className='font-jsl text-gray-600 mt-4 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-4 text-[15px] leading-6.5'>
           What if technology could quietly close that gap?
         </p>
 
-        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>
           What if delivery wasn’t just about speed, but about <b>access</b>?
         </p>
 
-        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>
           What if innovation could reach places, people, and moments that traditional logistics often overlook?
         </p>
 
@@ -36,25 +36,25 @@ const DroneSpeed = () => {
           This is the perspective shaping the logistics drone we are currently working on.
         </p>
 
-        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>
           The idea goes beyond movement in the air. It’s about precision, responsibility, and awareness of the environment it operates in. A system designed to understand its surroundings, respect safety boundaries, and function within real-world regulations, while still solving a genuine need.
         </p>
 
-        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>
           We are exploring how autonomous delivery can support communities, reduce pressure on existing systems, and offer a smarter way to move essential items when it truly matters.
         </p>
 
         <img src="/drone5.jpeg" className="mt-8 w-full" />
 
-        <p className='font-jsl text-gray-600 mt-8 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-8 text-[15px] leading-6.5'>
           This isn’t a finished story.
         </p>
 
-        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>
           It’s an evolving one.
         </p>
 
-        <p className='font-jsl text-gray-600 mt-4 text-[15px] leading-[26px]'>
+        <p className='font-jsl text-gray-600 mt-4 text-[15px] leading-6.5'>
           And as we continue building, testing, and learning, this space will grow with the project—sharing the thinking, the challenges, and the possibilities behind it.
         </p>
 
