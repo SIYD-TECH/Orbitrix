@@ -22,5 +22,12 @@ export const blogs: Blog[] = [
     title: "Have you witnessed a 24 hrs powered solar drones?",
     desc: "Did You Know That..... Most drones fly for thirty minutes before their batteries...",
     date: "December 11, 2025"
+  }, {
+    _id: "when-distance-becomes-the-real-problem-789",
+    sku: "drone-speed",
+    img: "/drone5.jpeg",
+    title: "When distance becomes the real problem",
+    desc: "Sometimes, the challenge isn't traffic. It's distance...",
+    date: "January 20, 2026"
   }
 ]
