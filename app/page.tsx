@@ -42,7 +42,7 @@ const page = () => {
   }, [index, isDeleting])
 
   return (
-    <main className="bg-black">
+    <main className="bg-black overflow-x-hidden">
       <Header theme="dark" />
       {videoModalActive && <VideoModal setVideoModalActive={setVideoModalActive} />}
 
