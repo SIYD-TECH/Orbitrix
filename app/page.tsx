@@ -1,6 +1,6 @@
 "use client";
 
-import { ghostVariants, slideUpVariants } from "@/animations/contents";
+import { ghostVariants, slideLeft, slideRight, slideUpBlur, slideUpVariants } from "@/animations/contents";
 import { heroText } from "@/animations/hero";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -42,7 +42,7 @@ const page = () => {
   }, [index, isDeleting])
 
   return (
-    <main>
+    <main className="bg-black">
       <Header theme="dark" />
       {videoModalActive && <VideoModal setVideoModalActive={setVideoModalActive} />}
 
@@ -89,47 +89,85 @@ const page = () => {
         className="bg-black max-md:pt-70 max-lg:pt-20 px-6"
       >
         {/* mobile */}
-        <motion.div 
-          initial="hidden"
-          whileInView="show"
-          variants={slideUpVariants} 
+        <div 
           className="sm:hidden"
         >
           <div className="relative p-2">
-            <img src="/guillermo.jpg" className="absolute h-[300px] w-[350px] right-[-10px]" />
-            <img src="/history.jpg" className="absolute top-[150px] left-0 h-[400px]" />
+            <motion.div
+              initial="hidden"
+              whileInView="show"
+              variants={slideRight}
+            >
+              <img src="/guillermo.jpg" className="absolute h-75 w-87.5 right-2.5" />
+            </motion.div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="show"
+              variants={slideLeft}
+            >
+              <img src="/history.jpg" className="absolute top-37.5 left-0 h-100" />
+            </motion.div>
           </div>
 
-          <p className="text-gray-300 text-[15px] w-[80%] leading-[25px] font-jsl max-sm:mt-140">
+          <motion.p
+            initial="hidden"
+            whileInView="show"
+            variants={slideUpBlur} 
+            className="text-gray-300 text-[15px] w-[80%] leading-6.25 font-jsl max-sm:mt-140"
+          >
             Orbitrix is a forward-thinking technology agency specializing in artificial intelligence, robotics, and IoT. We help businesses evolve by designing smart, connected systems that automate processes, improve efficiency, and unlock new possibilities.
-          </p>
+          </motion.p>
 
-          <p className="text-gray-300 text-[15px] w-[80%] leading-[25px] font-jsl mt-4">
+          <motion.p
+            initial="hidden"
+            whileInView="show"
+            variants={slideUpBlur} 
+            className="text-gray-300 text-[15px] w-[80%] leading-6.25 font-jsl mt-4"
+          >
             Driven by innovation and built for impact, we turn complex technology into practical solutions that move businesses forward.
-          </p>
-        </motion.div>
+          </motion.p>
+        </div>
 
         {/* desktop */}
-        <motion.div
-          initial="hidden"
-          whileInView="show"
-          variants={slideUpVariants} 
+        <motion.div 
           className="max-sm:hidden grid grid-cols-2 gap-6 md:w-[80%] mx-auto"
         >
-          <div className="flex-center">
-            <img src="/guillermo.jpg" className="w-full lg:w-[500px]" />
-          </div>
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            variants={slideRight}
+            className="flex-center"
+          >
+            <img src="/guillermo.jpg" className="w-full lg:w-125" />
+          </motion.div>
 
           <div>
-            <img src="/history.jpg" className="md:h-[500px]" />
+            <motion.div
+              initial="hidden"
+              whileInView="show"
+              variants={slideLeft}
+            >
+              <img src="/history.jpg" className="md:h-125" />
+            </motion.div>
 
-            <p className="text-gray-300 text-[15px] lg:w-[60%] md:w-[80%] leading-[25px] font-jsl max-sm:mt-160 mt-6">
+            <motion.p
+              initial="hidden"
+              whileInView="show"
+              variants={slideUpBlur} 
+              className="text-gray-300 text-[15px] lg:w-[60%] md:w-[80%] leading-6.25 font-jsl max-sm:mt-160 mt-6"
+            >
               Orbitrix is a forward-thinking technology agency specializing in artificial intelligence, robotics, and IoT. We help businesses evolve by designing smart, connected systems that automate processes, improve efficiency, and unlock new possibilities.
-            </p>
+            </motion.p>
 
-            <p className="text-gray-300 text-[15px] lg:w-[60%] md:w-[80%] leading-[25px] font-jsl mt-4">
+            <motion.p
+              initial="hidden"
+              whileInView="show"
+              variants={slideUpBlur} 
+              className="text-gray-300 text-[15px] lg:w-[60%] md:w-[80%] leading-6.25 font-jsl mt-4"
+            >
               Driven by innovation and built for impact, we turn complex technology into practical solutions that move businesses forward.
-            </p>
+            </motion.p>
           </div>
         </motion.div>
       </section>
@@ -158,8 +196,81 @@ const page = () => {
         <div className="marquee">
           <h1 className="marquee-content font-outfit text-5xl lg:text-8xl md:text-7xl mt-6 text-white"
           >
-            ROBOTICS, DRONES, SPACE EXPLORATION, BIOTECHNOLOGY
+            HUMANOID ROBOTS, DRONES, SPACE EXPLORATION, BIOTECHNOLOGY
           </h1>
+        </div>
+      </section>
+
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        variants={slideRight} 
+        className="px-6 md:px-10 xl:px-20 pt-30 text-white"
+      >
+        <p className="font-outfit text-gray-300 font-bold text-[13px] lg:text-md">OUR CORE CAPABILITIES</p>
+
+        <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl md:w-[60%] mt-2">
+          Building the future, one solution at a time
+        </h1>
+      </motion.div>
+
+      <section
+        className="px-6 pt-12 lg:pt-16 bg-black text-white pb-30"
+      >
+        {/* mobile */}
+        <div className="sm:hidden">
+          <div className="relative p-2">
+            <motion.div
+              initial="hidden"
+              whileInView="show"
+              variants={slideRight}
+            >
+              <img src="/rocket.jpg" className="absolute h-75 w-87.5 right-[-2.5]" />
+            </motion.div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="show"
+              variants={slideLeft}
+            >
+              <img src="/astro.jpg" className="absolute top-37.5 left-0 h-100" />
+            </motion.div>
+          </div>
+
+          <motion.p
+            initial="hidden"
+            whileInView="show"
+            variants={slideUpBlur} 
+            className="text-[15px] w-[80%] leading-6.25 font-jsl max-sm:mt-140"
+          >
+            At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
+          </motion.p>
+        </div>
+
+        {/* desktop */}
+        <div className="max-sm:hidden grid grid-cols-2 gap-6 md:w-[80%] mx-auto">
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            variants={slideRight}
+            className="flex-center"
+          >
+            <img src="/rocket.jpg" className="w-full lg:w-125" />
+          </motion.div>
+
+          <div>
+            <motion.div
+              initial="hidden"
+              whileInView="show"
+              variants={slideLeft}
+            >
+              <img src="/astro.jpg" className="md:h-125" />
+            </motion.div>
+
+            <p className="text-[15px] lg:w-[80%] md:w-[80%] leading-6.25 font-jsl max-sm:mt-160 mt-6">
+              At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -231,6 +342,7 @@ const page = () => {
           <div className="comp-section-box"></div>
         </motion.div>
       </section>
+
 
       {/* FOOTER */}
       <Footer />

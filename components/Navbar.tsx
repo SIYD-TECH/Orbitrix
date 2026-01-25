@@ -24,7 +24,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
   }
 
   const toX = () => {
-    redirect("https://x.com/Orbitriximpacts")
+    redirect("https://x.com/Orbitrix_")
   }
 
   const toLinkedIn = () => {
@@ -32,7 +32,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
   }
 
   const toInstagram = () => {
-    redirect("https://www.instagram.com/orbitriximpactsafrica")
+    redirect("https://www.instagram.com/orbitrix__")
   }
 
   return (
@@ -166,7 +166,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
       >
 
         <div className="relative h-full w-full">
-          <div className={`${theme === "dark" ? "bg-dark" : "bg-white border-l-1 border-l-gray-200"} absolute top-0 bottom-0 right-0 w-[400px] pt-11 px-12`}>
+          <div className={`${theme === "dark" ? "bg-dark" : "bg-white border-l border-l-gray-200"} absolute top-0 bottom-0 right-0 w-[400px] pt-11 px-12`}>
 
             {/* logo */}
             <div className="flex-between">
@@ -237,7 +237,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
                 variants={desktopInfo} 
                 className={`${theme == "dark" ? "text-white" : "text-black"} font-outfit text-2xl`}
               >
-                +1 840 841 25 69
+                +234 813 750 8176
               </motion.p>
 
               <motion.p

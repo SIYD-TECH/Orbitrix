@@ -41,7 +41,7 @@
 }
 
 @utility comps-img-section {
-  @apply pt-30 pb-50 bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 sm:px-30 md:px-20 lg:px-20 gap-y-6;
+  @apply pt-20 pb-30 bg-black grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 sm:px-30 md:px-20 lg:px-20 gap-y-6;
 }
 
 @utility comp-section-box {
