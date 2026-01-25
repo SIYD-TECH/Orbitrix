@@ -56,8 +56,8 @@ const ServicePage = () => {
         {/* mobile */}
         <div className="sm:hidden">
           <div className="relative p-2">
-            <img src="/guillermo.jpg" className="absolute h-[300px] w-[350px] right-[-10px]" />
-            <img src="/history.jpg" className="absolute top-[150px] left-0 h-[400px]" />
+            <img src="/rocket.jpg" className="absolute h-[300px] w-[350px] right-[-10px]" />
+            <img src="/astro.jpg" className="absolute top-[150px] left-0 h-[400px]" />
           </div>
 
           <p className="text-[15px] w-[80%] leading-[25px] font-jsl max-sm:mt-140">
@@ -68,11 +68,11 @@ const ServicePage = () => {
         {/* desktop */}
         <div className="max-sm:hidden grid grid-cols-2 gap-6 md:w-[80%] mx-auto">
           <div className="flex-center">
-            <img src="/guillermo.jpg" className="w-full lg:w-[500px]" />
+            <img src="/rocket.jpg" className="w-full lg:w-[500px]" />
           </div>
 
           <div>
-            <img src="/history.jpg" className="md:h-[500px]" />
+            <img src="/astro.jpg" className="md:h-[500px]" />
 
             <p className="text-[15px] lg:w-[80%] md:w-[80%] leading-[25px] font-jsl max-sm:mt-160 mt-6">
               At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.

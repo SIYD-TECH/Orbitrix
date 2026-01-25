@@ -98,7 +98,7 @@ const page = () => {
               whileInView="show"
               variants={slideRight}
             >
-              <img src="/guillermo.jpg" className="absolute h-75 w-87.5 right-2.5" />
+              <img src="/guillermo.jpg" className="absolute h-75 w-87.5 right-0" />
             </motion.div>
 
             <motion.div
