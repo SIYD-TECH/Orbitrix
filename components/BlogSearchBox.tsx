@@ -1,13 +1,16 @@
+"use client";
+
 import { blogs } from "@/data/blogs"
 import { Blog } from "@/types/blog";
 import { Search } from "lucide-react"
-import { redirect } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const BlogSearchBox = () => {
+  const router = useRouter()
   const recentBlogs = blogs.slice(0, 2);
 
   const toBlog = (blog: Blog) => {
-    redirect(`/blog/${blog._id}`)
+    router.push(`/blog/${blog._id}`)
   }
 
   return (
