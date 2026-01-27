@@ -1,8 +1,14 @@
 import { blogs } from "@/data/blogs"
+import { Blog } from "@/types/blog";
 import { Search } from "lucide-react"
+import { redirect } from "next/navigation";
 
 const BlogSearchBox = () => {
-  const recentBlogs = blogs.slice(0, 2)
+  const recentBlogs = blogs.slice(0, 2);
+
+  const toBlog = (blog: Blog) => {
+    redirect(`/blog/${blog._id}`)
+  }
 
   return (
     <div className="bg-white border border-gray-100 p-6">
@@ -20,10 +26,14 @@ const BlogSearchBox = () => {
       <div className="mt-8">
         <h1 className="font-outfit text-[18px]">Recent Posts</h1>
 
-        {/* trending #1 */}
+        {/* trending */}
         {recentBlogs.map(blg => {
           return (
-            <div key={blg._id} className="mt-6 flex justify-start items-start gap-4">
+            <div 
+              key={blg._id} 
+              onClick={() => toBlog(blg)} 
+              className="mt-6 flex justify-start py-1 cursor-pointer items-start gap-4 hover:bg-gray-50 active:bg-gray-50"
+            >
               <div className="h-18 w-20 flex-none lg:h-20 lg:w-22">
                 <img src={blg.img} className="h-full w-full" />
               </div>
