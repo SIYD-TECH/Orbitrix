@@ -57,10 +57,10 @@ const ServicePage = () => {
         <div className="sm:hidden">
           <div className="relative p-2">
             <img src="/rocket.jpg" className="absolute h-[300px] w-[350px] right-[-10px]" />
-            <img src="/astro.jpg" className="absolute top-[150px] left-0 h-[400px]" />
+            <img src="/astro.jpg" className="absolute top-37.5 left-0 h-100" />
           </div>
 
-          <p className="text-[15px] w-[80%] leading-[25px] font-jsl max-sm:mt-140">
+          <p className="text-[15px] w-[80%] leading-6.25 font-jsl max-sm:mt-140">
             At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
           </p>
         </div>
@@ -68,13 +68,13 @@ const ServicePage = () => {
         {/* desktop */}
         <div className="max-sm:hidden grid grid-cols-2 gap-6 md:w-[80%] mx-auto">
           <div className="flex-center">
-            <img src="/rocket.jpg" className="w-full lg:w-[500px]" />
+            <img src="/rocket.jpg" className="w-full lg:w-125" />
           </div>
 
           <div>
-            <img src="/astro.jpg" className="md:h-[500px]" />
+            <img src="/astro.jpg" className="md:h-125" />
 
-            <p className="text-[15px] lg:w-[80%] md:w-[80%] leading-[25px] font-jsl max-sm:mt-160 mt-6">
+            <p className="text-[15px] lg:w-[80%] md:w-[80%] leading-6.25 font-jsl max-sm:mt-160 mt-6">
               At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
             </p>
           </div>
@@ -99,7 +99,7 @@ const ServicePage = () => {
         {/* grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 px-6 md:px-10 xl:px-25">
 
-          <div className="px-6 py-10 bg-white border-1 border-stone-300">
+          <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/drone-icon.png" className="h-20 lg:h-20 mx-auto" />
 
             <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Logistics Drone</h1>
@@ -111,7 +111,7 @@ const ServicePage = () => {
             <ArrowRight className="mt-4 mx-auto" />
           </div>
 
-          <div className="px-6 py-10 bg-white border-1 border-stone-300">
+          <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/dog-icon.png" className="h-20 lg:h-20 mx-auto" />
 
             <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Robotics Dogs</h1>
@@ -123,7 +123,7 @@ const ServicePage = () => {
             <ArrowRight className="mt-4 mx-auto" />
           </div>
 
-          <div className="px-6 py-10 bg-white border-1 border-stone-300">
+          <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/robot-icon.png" className="h-19 lg:h-20 mx-auto" />
 
             <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Humanoid Robots</h1>

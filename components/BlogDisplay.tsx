@@ -14,7 +14,7 @@ const BlogDisplay = ({ blog }: { blog: Blog }) => {
   return (
     <div 
       onClick={toBlog} 
-      className="bg-white grid grid-cols-1 sm:grid-cols-2 border-1 border-gray-100 cursor-pointer mb-8"
+      className="bg-white grid grid-cols-1 sm:grid-cols-2 border border-gray-100 cursor-pointer mb-8"
     >
       <div className="h-65 md:h-full overflow-hidden">
         <img src={blog.img} className="h-full w-full object-center object-cover hover:scale-110 active:scale-110 ease-in-out duration-600 transition-transform" />
