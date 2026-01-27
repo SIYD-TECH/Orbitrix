@@ -2,7 +2,7 @@ import BlogSearchBox from '../BlogSearchBox'
 
 const DroneLogistics = () => {
   return (
-    <div className='pt-10 bg-gray-50 grid grid-cols-1 lg:grid-cols-3 md:px-6 lg:px-8 xl:px-20 mb-50'>
+    <div className='pt-10 bg-gray-50 grid grid-cols-1 gap-6 lg:grid-cols-3 md:px-6 lg:px-8 xl:px-20 mb-50'>
       <section className="px-6 lg:col-span-2">
       <p className='font-jsl text-gray-600 text-[15px] leading-6.5'>
         Your delivery rider just called. He’s stuck in traffic. Again. The customer is calling asking where their package is. Again. You’re apologizing for delays caused by Lagos roads. Again.

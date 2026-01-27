@@ -2,6 +2,13 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
+    _id: "when-innovation-meets-the-unexpected-808",
+    sku: "effective-drones",
+    img: "/drone6.jpg",
+    title: "When Innovation Meets The Unexpected",
+    desc: "What if a drone could do more than carry packages?...",
+    date: "January 27, 2026"
+  }, {
     _id: "when-distance-becomes-the-real-problem-789",
     sku: "drone-speed",
     img: "/drone5.jpeg",

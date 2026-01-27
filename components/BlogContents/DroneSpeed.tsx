@@ -2,7 +2,7 @@ import BlogSearchBox from "../BlogSearchBox"
 
 const DroneSpeed = () => {
   return (
-    <div className='pt-10 bg-gray-50 grid grid-cols-1 lg:grid-cols-3 md:px-6 lg:px-8 xl:px-20 mb-50'>
+    <div className='pt-10 bg-gray-50 grid grid-cols-1 gap-6 lg:grid-cols-3 md:px-6 lg:px-8 xl:px-20 mb-50'>
       <section className="px-6 lg:col-span-2">
         <p className='font-outfit mt-4 text-[17px]'>
           Sometimes, the challenge isn't traffic. It's distance

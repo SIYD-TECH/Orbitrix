@@ -2,7 +2,7 @@ import BlogSearchBox from '../BlogSearchBox'
 
 const RobotDogs = () => {
   return (
-    <div className='pt-10 bg-gray-50 grid grid-cols-1 lg:grid-cols-3 md:px-6 lg:px-8 xl:px-20 mb-50'>
+    <div className='pt-10 bg-gray-50 grid grid-cols-1 gap-6 lg:grid-cols-3 md:px-6 lg:px-8 xl:px-20 mb-50'>
       <section className="px-6 lg:col-span-2">
         <p className='font-jsl text-gray-600 text-[15px] leading-[26px]'>
           You heard that right. Orbitrix is developing robot dogs. Not importing them. Not assembling kits. Actually designing and building them from scratch. Metal frame, motors, sensors, artificial intelligence—everything. Built here.
