@@ -226,7 +226,7 @@ const ServicePage = () => {
             {/* 1 */}
             <div 
               onClick={() => setStep(1)} 
-              className="mt-8 border-b-1 border-t-1 py-4 border-gray-300 cursor-pointer"
+              className="mt-8 border-b border-t py-4 border-gray-300 cursor-pointer"
             >
               <div className="text-lg font-outfit flex-between">
                 <h1>What’s a zero-gravity flight?</h1>
@@ -241,7 +241,7 @@ const ServicePage = () => {
             {/* 2 */}
             <div 
               onClick={() => setStep(2)} 
-              className="border-b-1 py-4 border-gray-300 cursor-pointer"
+              className="border-b py-4 border-gray-300 cursor-pointer"
             >
               <div className="text-lg font-outfit flex-between">
                 <h1>
@@ -258,7 +258,7 @@ const ServicePage = () => {
             {/* 3 */}
             <div 
               onClick={() => setStep(3)} 
-              className="border-b-1 py-4 border-gray-300 cursor-pointer"
+              className="border-b py-4 border-gray-300 cursor-pointer"
             >
               <div className="text-lg font-outfit flex-between">
                 <h1>
