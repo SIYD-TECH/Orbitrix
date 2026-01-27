@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: 'Orbitrixng',
     images: [
       {
-        url: 'https://orbitrixng.com/favicon.png',
+        url: 'https://orbitrixng.com/logo.png',
         width: 1000,
         height: "1000",
         alt: 'Orbitrix Logo',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Orbitrix',
     description: 'Pioneering innovation at the intersection of techology & exploration',
-    images: ['https://orbitrixng.com/favicon.png'],
+    images: ['https://orbitrixng.com/logo.png'],
   },
   icons: "./favicon.png"
 };
