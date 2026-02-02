@@ -178,12 +178,12 @@ const page = () => {
       <section className="pt-40">
         {/* mobile */}
         <div className="md:hidden relative">
-          <video autoPlay muted loop className="w-full h-150">
+          <video autoPlay muted loop className="w-full h-200">
             <source src="/rocket.mp4" />
           </video>
 
           <div 
-            className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent from-0% via-black/70 via-40% to-black to-100%"
+            className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent from-0% via-black/20 via-40% to-black to-100%"
           >
             <div className="absolute bottom-0 left-6">
               <h1 className="text-white text-3xl font-jsans font-bold">
