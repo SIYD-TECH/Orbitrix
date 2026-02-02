@@ -1,12 +1,14 @@
 "use client";
 
-import { ghostVariants, slideLeft, slideRight, slideUpBlur, slideUpVariants } from "@/animations/contents";
+import { ghostVariants, slideLeft, slideRight, slideUpBlur } from "@/animations/contents";
 import { heroText } from "@/animations/hero";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MotionWrapper from "@/components/MotionWrapper";
 import VideoModal from "@/components/VideoModal";
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const text = "INNOVATE. AUTOMATE. ELEVATE";
@@ -170,6 +172,63 @@ const page = () => {
             </motion.p>
           </div>
         </motion.div>
+      </section>
+
+
+      <section className="pt-40">
+        {/* mobile */}
+        <div className="md:hidden relative">
+          <video autoPlay muted loop className="w-full">
+            <source src="/rocket.mp4" />
+          </video>
+
+          <div 
+            className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent from-0% via-black/70 via-40% to-black to-100%"
+          >
+            <div className="absolute bottom-0 left-6">
+              <h1 className="text-white text-3xl font-jsans font-bold">
+                REVOLUTIONALIZING HUMAN CAPABILITIES
+              </h1>
+
+              <p className="font-jsl mt-2 text-sm text-white w-[80%]">
+                At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
+              </p>
+
+              <button className="ghost-btn flex-center gap-3 mt-6">
+                <Link href="/about">
+                  About Us
+                </Link>
+                <ArrowRight size={15} />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* desktop */}
+        <div className="max-md:hidden relative pb-10">
+          <video autoPlay muted loop className="w-full">
+            <source src="/rocket.mp4" />
+          </video>
+
+          <div className="absolute top-0 bottom-0 left-0 right-0 bg-black/60">
+            <div className="absolute left-20 top-30">
+              <h1 className="text-white text-4xl font-jsans font-bold xl:text-5xl w-[70%] leading-14">
+                REVOLUTIONALIZING HUMAN CAPABILITIES
+              </h1>
+
+              <p className="font-jsl mt-5 text-white w-[50%]">
+                At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
+              </p>
+
+              <button className="ghost-btn flex-center gap-3 mt-6">
+                <Link href="/about">
+                  About Us
+                </Link>
+                <ArrowRight size={15} />
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
 
 

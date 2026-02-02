@@ -56,13 +56,12 @@
   @apply text-white cursor-pointer hover:inline-block hover:border-b-white hover:border-b-2;
 }
 
-
 @utility header-nav-light-active {
   @apply inline-block border-b-2 cursor-pointer;
 }
 
 @utility header-nav-light {
-  @apply cursor-pointer hover:inline-block hover:border-b hover:border-b-2
+  @apply cursor-pointer hover:inline-block hover:border-b-2
 }
 
 @utility footer-nav-active {
@@ -74,7 +73,11 @@
 }
 
 @utility contact-input {
-  @apply py-3 md:py-4 pl-10 text-sm placeholder:font-jsl placeholder:text-gray-600 border-b-1 border-gray-300 font-jsl focus:outline-none w-full;
+  @apply py-3 md:py-4 pl-10 text-sm placeholder:font-jsl placeholder:text-gray-600 border-b border-gray-300 font-jsl focus:outline-none w-full;
+}
+
+@utility ghost-btn {
+  @apply py-3 px-6 bg-black/50 border border-gray-800 cursor-pointer font-jsl text-sm text-white;
 }
 
 .marquee {
