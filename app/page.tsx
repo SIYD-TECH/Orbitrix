@@ -178,7 +178,7 @@ const page = () => {
       <section className="pt-40">
         {/* mobile */}
         <div className="md:hidden relative">
-          <video autoPlay muted loop className="w-full">
+          <video autoPlay muted loop className="w-full h-150">
             <source src="/rocket.mp4" />
           </video>
 
