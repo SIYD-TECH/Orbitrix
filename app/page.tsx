@@ -86,9 +86,72 @@ const page = () => {
         </div>
       </section>
 
+
+      {/* video section 1 */}
+      <section className="md:mt-40">
+        {/* mobile */}
+        <div className="md:hidden relative">
+          <video autoPlay muted loop className="w-full h-200">
+            <source src="/robot.mp4" />
+          </video>
+
+          <div 
+            className="absolute top-0 bottom-10 left-0 right-0 bg-linear-to-b from-transparent from-0% via-black/30 via-30% to-black to-100%"
+          >
+            <div className="absolute bottom-0 left-6">
+              <h1 className="text-white text-3xl font-jsans font-bold">
+                WHERE INNOVATION MEETS REALITY
+              </h1>
+
+              <p className="font-jsl mt-2 text-sm text-white w-[80%]">
+                From city streets to the edge of the atmosphere, Orbitrix technologies are built for real-world performance. Designed for endurance, precision, and adaptability, our systems turn ambitious ideas into deployed solutions — proving that the future of engineering is already in motion.
+              </p>
+
+              <button className="ghost-btn flex-center gap-3 mt-6">
+                <Link href="/about">
+                  About Us
+                </Link>
+                <ArrowRight size={15} />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* desktop */}
+        <div className="max-md:hidden relative mb-10">
+          <video autoPlay muted loop className="w-full">
+            <source src="/robot.mp4" />
+          </video>
+
+          <div className="absolute top-0 bottom-0 left-0 right-0 bg-linear-to-br from-transparent from-0% via-black/90 via-60% to-black to-100%">
+            <div className="absolute bottom-10 lg:bottom-20 right-20 text-right w-150">
+              <h1 className="text-white text-4xl font-jsans font-bold xl:text-5xl leading-14">
+                WHERE INNOVATION MEETS REALITY
+              </h1>
+
+              <div className="flex-end">
+                <p className="font-jsl mt-5 text-white w-[80%] xl:w-[85%]">
+                  From city streets to the edge of the atmosphere, Orbitrix technologies are built for real-world performance. Designed for endurance, precision, and adaptability, our systems turn ambitious ideas into deployed solutions — proving that the future of engineering is already in motion.
+                </p>
+              </div>
+
+              <div className="flex-end">
+                <button className="ghost-btn flex-center gap-3 mt-6">
+                  <Link href="/about">
+                    About Us
+                  </Link>
+                  <ArrowRight size={15} />
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SPACE SECTION */}
       <section
-        className="bg-black max-md:pt-70 max-lg:pt-20 px-6"
+        className="bg-black max-lg:pt-20 px-6"
       >
         {/* mobile */}
         <div 
@@ -175,7 +238,8 @@ const page = () => {
       </section>
 
 
-      <section className="pt-40">
+      {/* video section 2 */}
+      <section className="md:mt-40">
         {/* mobile */}
         <div className="md:hidden relative">
           <video autoPlay muted loop className="w-full h-200">
@@ -183,7 +247,7 @@ const page = () => {
           </video>
 
           <div 
-            className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent from-0% via-black/20 via-40% to-black to-100%"
+            className="absolute top-0 bottom-10 left-0 right-0 bg-linear-to-b from-transparent from-0% via-black/30 via-30% to-black to-100%"
           >
             <div className="absolute bottom-0 left-6">
               <h1 className="text-white text-3xl font-jsans font-bold">
@@ -205,7 +269,7 @@ const page = () => {
         </div>
 
         {/* desktop */}
-        <div className="max-md:hidden relative pb-10">
+        <div className="max-md:hidden relative mb-10">
           <video autoPlay muted loop className="w-full">
             <source src="/rocket.mp4" />
           </video>
@@ -255,7 +319,7 @@ const page = () => {
         <div className="marquee">
           <h1 className="marquee-content font-outfit text-5xl lg:text-8xl md:text-7xl mt-6 text-white"
           >
-            HUMANOID ROBOTS, DRONES, SPACE EXPLORATION, BIOTECHNOLOGY
+            HUMANOID, MILITARY DRONES, NEUROSCIENCE & NEURO-TECHNOLOGY
           </h1>
         </div>
       </section>
@@ -273,6 +337,7 @@ const page = () => {
         </h1>
       </motion.div>
 
+  
       <section
         className="px-6 pt-12 lg:pt-16 bg-black text-white pb-30"
       >
@@ -302,7 +367,7 @@ const page = () => {
             variants={slideUpBlur} 
             className="text-[15px] w-[80%] leading-6.25 font-jsl max-sm:mt-140"
           >
-            At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
+            Robotics dogs walking in Lagos. Drones flying for 80+ hours on solar power. Hand-crafted robots solving industrial challenges. Logistics drones delivering over traffic in 18 minutes. Every Orbitrux milestone proves aerospace innovation is happening now.
           </motion.p>
         </div>
 
@@ -327,7 +392,7 @@ const page = () => {
             </motion.div>
 
             <p className="text-[15px] lg:w-[80%] md:w-[80%] leading-6.25 font-jsl max-sm:mt-160 mt-6">
-              At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
+              Robotics dogs walking in Lagos. Drones flying for 80+ hours on solar power. Hand-crafted robots solving industrial challenges. Logistics drones delivering over traffic in 18 minutes. Every Orbitrux milestone proves aerospace innovation is happening now.
             </p>
           </div>
         </div>
