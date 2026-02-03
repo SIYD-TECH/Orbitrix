@@ -92,11 +92,11 @@ const page = () => {
         {/* mobile */}
         <div className="md:hidden relative">
           <video autoPlay muted loop className="w-full h-200">
-            <source src="/robot.mp4" />
+            <source src="/robot-potriat.mp4" />
           </video>
 
           <div 
-            className="absolute top-0 bottom-10 left-0 right-0 bg-linear-to-b from-transparent from-0% via-black/30 via-30% to-black to-100%"
+            className="absolute top-0 bottom-0 left-0 right-0 bg-linear-to-b from-transparent from-0% via-black/30 via-30% to-black to-100%"
           >
             <div className="absolute bottom-0 left-6">
               <h1 className="text-white text-3xl font-jsans font-bold">
@@ -243,11 +243,11 @@ const page = () => {
         {/* mobile */}
         <div className="md:hidden relative">
           <video autoPlay muted loop className="w-full h-200">
-            <source src="/rocket.mp4" />
+            <source src="/rocket-potriat.mp4" />
           </video>
 
           <div 
-            className="absolute top-0 bottom-10 left-0 right-0 bg-linear-to-b from-transparent from-0% via-black/30 via-30% to-black to-100%"
+            className="absolute top-0 bottom-0 left-0 right-0 bg-linear-to-b from-transparent from-0% via-black/30 via-30% to-black to-100%"
           >
             <div className="absolute bottom-0 left-6">
               <h1 className="text-white text-3xl font-jsans font-bold">
