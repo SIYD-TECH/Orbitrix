@@ -4,7 +4,7 @@ export const blogs: Blog[] = [
   {
     _id: "building-the-future-from-where-we-stand-99",
     sku: "robots-tech",
-    img: "humanoid.png",
+    img: "/humanoid.png",
     title: "Building the Future from Where We Stand",
     desc: "Technology is often discussed as something happening...",
     date: "February 5, 2026"

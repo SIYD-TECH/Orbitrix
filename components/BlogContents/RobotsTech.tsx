@@ -4,7 +4,7 @@ const RobotTech = () => {
   return (
     <div className='pt-10 bg-gray-50 grid grid-cols-1 gap-6 lg:grid-cols-3 md:px-6 lg:px-8 xl:px-20 mb-50'>
       <section className="px-6 lg:col-span-2">
-        <p className='blog-heading mt-6'>
+        <p className='blog-heading mt-4'>
           Building the Future from Where We Stand
         </p>
 
