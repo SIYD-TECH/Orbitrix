@@ -14,7 +14,7 @@ const VideoModal = ({ setVideoModalActive }: Props) => {
     <div className='fixed top-0 bottom-0 left-0 right-0 bg-black/80 z-20 flex-center'>
       <div className="w-[90%] sm:w-150 md:w-175 lg:w-200 p-2">
         <video autoPlay loop>
-          <source src='drone.mp4' />
+          <source src='rocket.mp4' />
         </video>
 
         <button

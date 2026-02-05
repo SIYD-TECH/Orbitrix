@@ -80,6 +80,14 @@
   @apply py-3 px-6 bg-black/50 border border-gray-800 cursor-pointer font-jsl text-sm text-white;
 }
 
+@utility blog-text {
+  @apply font-jsl text-gray-600 text-[15px] leading-6.5;
+}
+
+@utility blog-heading {
+  @apply font-outfit text-[17px];
+}
+
 .marquee {
   width: 100%;
   overflow: hidden;
