@@ -188,7 +188,6 @@ const ServicePage = () => {
         </div>
       </section>
 
-
       <section className="my-25 grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="px-10">
           <img src="/turbines.png" className="w-full" />

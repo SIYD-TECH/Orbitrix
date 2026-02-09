@@ -98,18 +98,18 @@ const AboutPage = () => {
       <section 
         className="bg-gray-50 pt-30 lg:pt-40 grid gap-8 grid-cols-1 sm:px-10 md:grid-cols-2 px-6 md:px-20 xl:px-30"
       >
-        <div className="bg-white p-8 rounded-lg border-1 border-gray-100">
+        <div className="bg-white p-8 rounded-lg border border-gray-100">
           <FcIdea size={40} className="animate-blink-slow" />
           <h1 className="font-jsans text-2xl md:text-3xl lg:text-4xl mt-4">Our Vision</h1>
-          <p className="mt-4 font-jsl text-gray-600 max-sm:text-sm leading-[26px]">
+          <p className="mt-4 font-jsl text-gray-600 max-sm:text-sm leading-6.5">
             To become a global leader in applied AI, Robotics, and connected systems by building practical, trustworthy solutions that shape the future of industries and redefine how technology is experienced
           </p>
         </div>
 
-        <div className="bg-white p-8 rounded-lg border-1 border-gray-100">
+        <div className="bg-white p-8 rounded-lg border border-gray-100">
           <FiTarget size={38} color="blue" className="animate-blink-slow" />
           <h1 className="font-jsans text-2xl md:text-3xl lg:text-4xl mt-4">Our Mission</h1>
-          <p className="mt-4 font-jsl text-gray-600 max-sm:text-sm leading-[26px]">
+          <p className="mt-4 font-jsl text-gray-600 max-sm:text-sm leading-6.5">
             To design and deploy intelligent, secure and interconnected technologies that help businesses solve real-world problems, scale efficiently, and operate with confidence in a rapidly evolving digital landscape
           </p>
         </div>
@@ -137,7 +137,7 @@ const AboutPage = () => {
         {/* grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 px-6 md:px-10 xl:px-25">
 
-          <div className="px-6 py-10 bg-white border-1 border-stone-300">
+          <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/drone-icon.png" className="h-20 lg:h-20 mx-auto" />
 
             <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Logistics Drone</h1>
@@ -149,7 +149,7 @@ const AboutPage = () => {
             <ArrowRight className="mt-4 mx-auto" />
           </div>
 
-          <div className="px-6 py-10 bg-white border-1 border-stone-300">
+          <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/dog-icon.png" className="h-20 lg:h-20 mx-auto" />
 
             <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Robotics Dogs</h1>
@@ -161,7 +161,7 @@ const AboutPage = () => {
             <ArrowRight className="mt-4 mx-auto" />
           </div>
 
-          <div className="px-6 py-10 bg-white border-1 border-stone-300">
+          <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/robot-icon.png" className="h-19 lg:h-20 mx-auto" />
 
             <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Humanoid Robots</h1>
