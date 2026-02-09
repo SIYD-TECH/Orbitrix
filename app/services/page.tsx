@@ -148,68 +148,42 @@ const ServicePage = () => {
         <div className="marquee">
           <div className="marquee-content2 font-outfit text-5xl lg:text-9xl md:text-7xl mt-6"
           >
-          <span>AERIEL</span>
-           <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>AERIEL</span>
             <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>AERIEL</span>
+              <ShipWheel className="animate-spin" />
+            </span>
+            <span>NEUROSCIENCE</span>
+              <span>
+              <ShipWheel className="animate-spin" />
+            </span>
+              <span>NEURO-TECHNOLOGY</span>
+              <span>
+              <ShipWheel className="animate-spin" />
+            </span>
+            <span>SPACE EXPLORATION</span>
             <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>AERIEL</span>
-            <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>AERIEL</span>
-            <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>AERIEL</span>
-            <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>AERIEL</span>
-            <span>
-             <ShipWheel className="animate-spin" />
-           </span>
+              <ShipWheel className="animate-spin" />
+            </span>
           </div>
         </div>
 
         <div className="marquee">
           <div className="marquee-content2-reverse font-outfit text-5xl md:text-7xl lg:text-9xl mt-3"
           >
-          <span>ADVENTURES</span>
-           <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>ADVENTURES</span>
             <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>ADVENTURES</span>
+              <ShipWheel className="animate-spin" />
+            </span>
+            <span>SPACE EXPLORATION</span>
             <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>ADVENTURES</span>
+              <ShipWheel className="animate-spin" />
+            </span>
+              <span>DRONES</span>
+              <span>
+              <ShipWheel className="animate-spin" />
+            </span>
+            <span>ROBOTICS</span>
             <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>ADVENTURES</span>
-            <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>ADVENTURES</span>
-            <span>
-             <ShipWheel className="animate-spin" />
-           </span>
-            <span>ADVENTURES</span>
-            <span>
-             <ShipWheel className="animate-spin" />
-           </span>
+              <ShipWheel className="animate-spin" />
+            </span>
           </div>
         </div>
       </section>
