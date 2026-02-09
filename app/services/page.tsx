@@ -52,8 +52,15 @@ const ServicePage = () => {
         <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl md:w-[60%] mt-2">Where advanced tech meets real-world impact</h1>
       </div>
 
+      <section className="flex-center mt-15">
+        <video autoPlay muted loop>
+          <source src="/drone.mp4" className="w-full" />
+        </video>
+      </section>
+
+      {/*
       <section className="px-6 mt-12 lg:mt-16">
-        {/* mobile */}
+        
         <div className="sm:hidden">
           <div className="relative p-2">
             <img src="/rocket.jpg" className="absolute h-[300px] w-[350px] right-[-10px]" />
@@ -65,7 +72,7 @@ const ServicePage = () => {
           </p>
         </div>
 
-        {/* desktop */}
+        
         <div className="max-sm:hidden grid grid-cols-2 gap-6 md:w-[80%] mx-auto">
           <div className="flex-center">
             <img src="/rocket.jpg" className="w-full lg:w-125" />
@@ -79,7 +86,7 @@ const ServicePage = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section>*/}
 
       <section className="bg-gray-50 pt-10 sm:pt-20 mt-4">
         <p className="font-jsl text-center text-[14px] font-bold">WHAT WE OFFER</p>
