@@ -268,14 +268,14 @@ const page = () => {
           </div>
         </div>
 
-        {/* desktop */}
-        <div className="max-md:hidden relative mb-10">
+        {/* medium screens */}
+        <div className="max-md:hidden lg:hidden relative mb-10">
           <video autoPlay muted loop className="w-full">
             <source src="/rocket.mp4" />
           </video>
 
           <div className="absolute top-0 bottom-0 left-0 right-0 bg-black/60">
-            <div className="absolute left-20 top-30">
+            <div className="absolute left-20 top-20">
               <h1 className="text-white text-4xl font-jsans font-bold xl:text-5xl w-[70%] leading-14">
                 REVOLUTIONALIZING HUMAN CAPABILITIES
               </h1>
@@ -292,6 +292,35 @@ const page = () => {
               </button>
             </div>
           </div>
+        </div>
+
+        {/* desktop */}
+        <div className="max-lg:hidden lg:w-220 xl:w-250 mx-auto">
+          <h1 className="text-white text-4xl font-jsans font-bold xl:text-5xl w-[70%] leading-14">
+            REVOLUTIONALIZING HUMAN CAPABILITIES
+          </h1>
+
+          <div className="grid grid-cols-2 gap-6 mt-6">
+            <div>
+              <p className="font-jsl mt-5 text-white w-[80%]">
+                At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
+              </p>
+
+              <button className="ghost-btn flex-center gap-3 mt-6">
+                <Link href="/about">
+                  About Us
+                </Link>
+                <ArrowRight size={15} />
+              </button>
+            </div>
+
+            <div className="flex-center">
+              <video autoPlay muted loop className="w-full">
+                <source src="/rocket.mp4" />
+              </video>
+            </div>
+          </div>
+
         </div>
       </section>
 
