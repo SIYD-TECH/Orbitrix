@@ -4,7 +4,7 @@ import { hrVariant } from "@/animations/utils";
 import { AnimatePresence, hover, motion } from "framer-motion";
 import { ArrowRight, X } from "lucide-react";
 import Link from "next/link";
-import { redirect, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { Dispatch, SetStateAction } from "react";
 import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { ImFacebook } from "react-icons/im";

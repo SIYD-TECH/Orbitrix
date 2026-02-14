@@ -1,28 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { redirect, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { ImFacebook } from "react-icons/im";
 
 const Footer = () => {
-  const pathname = usePathname()
+  const pathname = usePathname();
   
   const isActive = (href: string) => pathname === href;
 
-  const year = new Date().getFullYear()
-
-  const toX = () => {
-    redirect("https://x.com/Orbitriximpacts")
-  }
-
-  const toLinkedIn = () => {
-    redirect("https://www.linkedin.com/company/orbitrixng")
-  }
-
-  const toInstagram = () => {
-    redirect("https://www.instagram.com/orbitriximpactsafrica")
-  }
+  const year = new Date().getFullYear();
 
   return (
     <footer className="relative">
