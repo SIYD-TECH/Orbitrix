@@ -22,19 +22,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
   const closeNavbar = () => {
     setNavbarActive(false)
   }
-
-  const toX = () => {
-    redirect("https://x.com/Orbitrix_")
-  }
-
-  const toLinkedIn = () => {
-    redirect("https://www.linkedin.com/company/orbitrixng")
-  }
-
-  const toInstagram = () => {
-    redirect("https://www.instagram.com/orbitrix__")
-  }
-
+  
   return (
     <>
       {/* small screens */}
@@ -123,36 +111,36 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
 
             {/* socials */}
           <div className="mt-8 flex-start gap-6">
-            <motion.div
+            <motion.a
               variants={mobileNavSocials} 
               className="text-white hover:text-blue-400 active:text-blue-400"
             >
               <ImFacebook size={13} />
-            </motion.div>
+            </motion.a>
 
-            <motion.div
+            <motion.a
+              href="https://x.com/Orbitrix_"
               variants={mobileNavSocials} 
-              onClick={toX}
               className="text-white hover:text-gray-400 active:text-gray-400"
             >
               <FaXTwitter size={13} />
-            </motion.div>
+            </motion.a>
 
-            <motion.div
+            <motion.a
+              href="https://www.linkedin.com/company/orbitrixng"
               variants={mobileNavSocials} 
-              onClick={toLinkedIn} 
               className="text-white hover:text-blue-600 active:text-blue-600"
             >
               <FaLinkedin size={15} />
-            </motion.div>
+            </motion.a>
 
-            <motion.div
+            <motion.a
+              href="https://www.instagram.com/orbitrix__"
               variants={mobileNavSocials} 
-              onClick={toInstagram} 
               className="text-white hover:text-purple-500 active:text-purple-500"
             >
               <FaInstagram size={15} />
-            </motion.div>
+            </motion.a>
           </div>
         </motion.div>
       </AnimatePresence>
@@ -189,40 +177,40 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
             {/* socials */}
             <div className={`${theme == "dark" ? "text-white" : "text-black"} font-outfit mt-28`}>
 
-              <motion.div
+              <motion.a
                 variants={desktopNavLinks} 
                 className="flex-start gap-6 cursor-pointer hover:text-blue-400"
               >
                 <ImFacebook />
                 <p className="text-xl">Facebook</p>
-              </motion.div>
+              </motion.a>
 
-              <motion.div
+              <motion.a
+                href="https://x.com/Orbitrix_"
                 variants={desktopNavLinks} 
-                onClick={toX} 
                 className="flex-start gap-6 mt-8 cursor-pointer hover:text-gray-400"
               >
                 <FaXTwitter />
                 <p className="text-xl">Twitter</p>
-              </motion.div>
+              </motion.a>
 
-              <motion.div
+              <motion.a
+                href="https://www.linkedin.com/company/orbitrixng"
                 variants={desktopNavLinks} 
-                onClick={toLinkedIn} 
                 className="flex-start gap-6 mt-8 cursor-pointer hover:text-blue-600"
               >
                 <FaLinkedin size={20} />
                 <p className="text-xl">LinkedIn</p>
-              </motion.div>
+              </motion.a>
 
-              <motion.div
+              <motion.a
+                href="https://www.instagram.com/orbitrix__"
                 variants={desktopNavLinks} 
-                onClick={toInstagram} 
                 className="flex-start gap-6 mt-8 cursor-pointer hover:text-purple-500"
               >
                 <FaInstagram />
                 <p className="text-xl">Instagram</p>
-              </motion.div>
+              </motion.a>
             </div>
 
             <motion.hr
