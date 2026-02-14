@@ -36,7 +36,7 @@ const Footer = () => {
         {/* links */}
         <div className="md:flex-between md:px-10 lg:px-20">
           {/* navs */}
-          <div className="flex justify-center items-start gap-3 mt-4 sm:mt-6 items-start">
+          <div className="flex justify-center gap-3 mt-4 sm:mt-6 items-start">
             <div className={isActive("/") ? "footer-nav-active" : "footer-nav"}>
               <Link href="/">
                 Home
@@ -64,29 +64,32 @@ const Footer = () => {
 
           {/* socials */}
           <div className="flex-center gap-2 mt-4 sm:mt-6">
-            <div className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center">
+            <div className="text-white h-10 w-10 border border-gray-600 rounded-full flex-center">
               <ImFacebook size={14} />
             </div>
 
             <div 
-              onClick={toX} 
-              className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center"
+              className="text-white h-10 w-10 border border-gray-600 rounded-full flex-center"
             >
-              <FaXTwitter size={14} />
+              <a href="https://x.com/Orbitrix_">
+                <FaXTwitter size={14} />
+              </a>
             </div>
 
             <div 
-              onClick={toLinkedIn} 
-              className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center"
+              className="text-white h-10 w-10 border border-gray-600 rounded-full flex-center"
             >
-              <FaLinkedin size={16} />
+              <a href="https://www.linkedin.com/company/orbitrixng">
+                <FaLinkedin size={16} />
+              </a>
             </div>
 
             <div 
-              onClick={toInstagram} 
-              className="text-white h-10 w-10 border-1 border-gray-600 rounded-full flex-center"
+              className="text-white h-10 w-10 border border-gray-600 rounded-full flex-center"
             >
-              <FaInstagram size={16} />
+              <a href="https://www.instagram.com/orbitrix__">
+                <FaInstagram size={16} />
+              </a>
             </div>
           </div>
         </div>
