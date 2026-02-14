@@ -99,10 +99,6 @@ const ServicePage = () => {
       </section>
 
       <section className="bg-gray-50 pt-10 sm:pt-20 pb-20">
-        <p className="font-jsans text-center">Peter Bowman</p>
-        <p className="font-jsl text-gray-500 text-center text-sm">Creative Director</p>
-
-
         {/* grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 px-6 md:px-10 xl:px-25">
 
