@@ -396,7 +396,7 @@ const page = () => {
             variants={slideUpBlur} 
             className="text-[15px] w-[80%] leading-6.25 font-jsl max-sm:mt-140"
           >
-            Robotics dogs walking in Lagos. Drones flying for 80+ hours on solar power. Hand-crafted robots solving industrial challenges. Logistics drones delivering over traffic in 18 minutes. Every Orbitrux milestone proves aerospace innovation is happening now.
+            Robotics dogs walking in Lagos. Drones flying for 80+ hours on solar power. Hand-crafted robots solving industrial challenges. Logistics drones delivering over traffic in 18 minutes. Every Orbitrix milestone proves aerospace innovation is happening now.
           </motion.p>
         </div>
 
@@ -421,7 +421,7 @@ const page = () => {
             </motion.div>
 
             <p className="text-[15px] lg:w-[80%] md:w-[80%] leading-6.25 font-jsl max-sm:mt-160 mt-6">
-              Robotics dogs walking in Lagos. Drones flying for 80+ hours on solar power. Hand-crafted robots solving industrial challenges. Logistics drones delivering over traffic in 18 minutes. Every Orbitrux milestone proves aerospace innovation is happening now.
+              Robotics dogs walking in Lagos. Drones flying for 80+ hours on solar power. Hand-crafted robots solving industrial challenges. Logistics drones delivering over traffic in 18 minutes. Every Orbitrix milestone proves aerospace innovation is happening now.
             </p>
           </div>
         </div>

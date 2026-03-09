@@ -1,7 +1,7 @@
 import { rotateVariants } from "@/animations/contents";
 import { desktopInfo, desktopNav, desktopNavLinks, mobileNav, mobileNavLinks, mobileNavSocials } from "@/animations/nav";
 import { hrVariant } from "@/animations/utils";
-import { AnimatePresence, hover, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
