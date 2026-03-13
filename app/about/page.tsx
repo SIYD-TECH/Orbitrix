@@ -200,7 +200,7 @@ const AboutPage = () => {
                 className="h-full w-full object-cover object-[0%_1%]" 
               />
             </div>
-            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Oladeinde Ademola</h1>
+            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Oladeinde Adedamola</h1>
             <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
               PM & Cybersecurity Engineer
             </p>
@@ -213,7 +213,7 @@ const AboutPage = () => {
                 className="h-full w-full object-cover object-[10%_40%]" 
               />
             </div>
-            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Ambibola Favour</h1>
+            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Abimbola Favour</h1>
             <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
               Mechanical Engineer
             </p>
