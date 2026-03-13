@@ -192,7 +192,7 @@ const AboutPage = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-10 max-w-200 mx-auto mt-15">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-200 mx-auto mt-15">
           <div className="flex-center flex-col">
             <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
               <img 
@@ -200,8 +200,8 @@ const AboutPage = () => {
                 className="h-full w-full object-cover object-[0%_1%]" 
               />
             </div>
-            <h1 className="font-jsans text-xl text-center mt-4">Oladeinde Ademola</h1>
-            <p className="font-jsl text-center text-gray-600 mt-2">
+            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Oladeinde Ademola</h1>
+            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
               PM & Cybersecurity Engineer
             </p>
           </div>
@@ -213,8 +213,8 @@ const AboutPage = () => {
                 className="h-full w-full object-cover object-[10%_40%]" 
               />
             </div>
-            <h1 className="font-jsans text-xl text-center mt-4">Ambibola Favour</h1>
-            <p className="font-jsl text-center text-gray-600 mt-2">
+            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Ambibola Favour</h1>
+            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
               Mechanical Engineer
             </p>
           </div>
@@ -226,8 +226,8 @@ const AboutPage = () => {
                 className="h-full w-full object-cover object-[0%_25%]" 
               />
             </div>
-            <h1 className="font-jsans text-xl text-center mt-4">Habeeb Amoo</h1>
-            <p className="font-jsl text-center text-gray-600 mt-2">
+            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Habeeb Amoo</h1>
+            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
               Software Engineer
             </p>
           </div>
@@ -239,8 +239,8 @@ const AboutPage = () => {
                 className="h-full w-full object-cover object-[0%_1%]" 
               />
             </div>
-            <h1 className="font-jsans text-xl text-center mt-4">Somefun Dolapo</h1>
-            <p className="font-jsl text-center text-gray-600 mt-2">
+            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Somefun Dolapo</h1>
+            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
               Creative Studio Manager
             </p>
           </div>
@@ -252,8 +252,8 @@ const AboutPage = () => {
                 className="h-full w-full object-cover object-[0%_0%]" 
               />
             </div>
-            <h1 className="font-jsans text-xl text-center mt-4">Israel Victor</h1>
-            <p className="font-jsl text-center text-gray-600 mt-2">
+            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Israel Victor</h1>
+            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
               Aerospace Engineer
             </p>
           </div>
@@ -265,8 +265,8 @@ const AboutPage = () => {
                 className="h-full w-full object-cover object-[0%_0%]" 
               />
             </div>
-            <h1 className="font-jsans text-xl text-center mt-4">Enoch Ayomide</h1>
-            <p className="font-jsl text-center text-gray-600 mt-2">
+            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">Enoch Ayomide</h1>
+            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
               Electrical Engineer
             </p>
           </div>
