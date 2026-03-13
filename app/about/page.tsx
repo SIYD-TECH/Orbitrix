@@ -172,6 +172,108 @@ const AboutPage = () => {
         </div>
       </section>
 
+      {/* our team section */}
+      <section className="bg-gray-50 pt-20 sm:pt-30">
+        <h1 className="text-center font-jsans text-2xl md:text-3xl xl:text-4xl">
+          Meet the
+          <span className="text-stone-400"> team</span>
+        </h1>
+
+        <div className="mt-16 w-[80%] md:w-[60%] lg:w-[50%] mx-auto">
+          <div className="h-45 w-45 rounded-full overflow-hidden mx-auto">
+            <img 
+              src="/samuel_ogunmilua.jpg" 
+              className="h-full w-full object-cover object-[0%_5%]" 
+            />
+          </div>
+          <h1 className="font-jsans text-xl text-center mt-4">Samuel Ogunmilua</h1>
+          <p className="font-jsl text-center text-gray-600 mt-2">
+            CEO & Founder
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-10 max-w-200 mx-auto mt-15">
+          <div className="flex-center flex-col">
+            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+              <img 
+                src="/oladeinde_ademola.jpg" 
+                className="h-full w-full object-cover object-[0%_1%]" 
+              />
+            </div>
+            <h1 className="font-jsans text-xl text-center mt-4">Oladeinde Ademola</h1>
+            <p className="font-jsl text-center text-gray-600 mt-2">
+              PM & Cybersecurity Engineer
+            </p>
+          </div>
+
+          <div className="flex-center flex-col">
+            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+              <img 
+                src="/ambibola_favour.jpg" 
+                className="h-full w-full object-cover object-[10%_40%]" 
+              />
+            </div>
+            <h1 className="font-jsans text-xl text-center mt-4">Ambibola Favour</h1>
+            <p className="font-jsl text-center text-gray-600 mt-2">
+              Mechanical Engineer
+            </p>
+          </div>
+
+          <div className="flex-center flex-col">
+            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+              <img 
+                src="/habeeb_amoo.jpg" 
+                className="h-full w-full object-cover object-[0%_25%]" 
+              />
+            </div>
+            <h1 className="font-jsans text-xl text-center mt-4">Habeeb Amoo</h1>
+            <p className="font-jsl text-center text-gray-600 mt-2">
+              Software Engineer
+            </p>
+          </div>
+
+          <div className="flex-center flex-col">
+            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+              <img 
+                src="/somefun_dolapo.jpg" 
+                className="h-full w-full object-cover object-[0%_1%]" 
+              />
+            </div>
+            <h1 className="font-jsans text-xl text-center mt-4">Somefun Dolapo</h1>
+            <p className="font-jsl text-center text-gray-600 mt-2">
+              Creative Studio Manager
+            </p>
+          </div>
+
+          <div className="flex-center flex-col">
+            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+              <img 
+                src="/israel_victor.jpg" 
+                className="h-full w-full object-cover object-[0%_0%]" 
+              />
+            </div>
+            <h1 className="font-jsans text-xl text-center mt-4">Israel Victor</h1>
+            <p className="font-jsl text-center text-gray-600 mt-2">
+              Aerospace Engineer
+            </p>
+          </div>
+
+          <div className="flex-center flex-col">
+            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+              <img 
+                src="/enoch_ayomide.jpg" 
+                className="h-full w-full object-cover object-[0%_0%]" 
+              />
+            </div>
+            <h1 className="font-jsans text-xl text-center mt-4">Enoch Ayomide</h1>
+            <p className="font-jsl text-center text-gray-600 mt-2">
+              Electrical Engineer
+            </p>
+          </div>
+        </div>
+
+      </section>
+
 
       {/* Carousel section */}
       <Carousel />

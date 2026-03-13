@@ -14,7 +14,7 @@ const Carousel = () => {
       </div>
 
       {/* large screens */}
-      <div className='grid grid-cols-2 lg:grid-cols-3 gap-2 max-md:hidden'>
+      <div className='grid grid-cols-2 lg:grid-cols-3 space-x-2 space-y-8 max-md:hidden'>
         {blogs.map(blg => <AboutBlogDisplay key={blg._id} blog={blg} />)}        
       </div>
 
