@@ -1,6 +1,7 @@
 import DroneLogistics from "./BlogContents/DroneLogistics"
 import DroneSpeed from "./BlogContents/DroneSpeed"
 import EffectiveDrones from "./BlogContents/EffectiveDrones"
+import Innovation from "./BlogContents/Innovation"
 import RobotDogs from "./BlogContents/RobotDogs"
 import RobotTech from "./BlogContents/RobotsTech"
 import SolarDrones from "./BlogContents/SolarDrones"
@@ -18,6 +19,8 @@ const BlogContent = ({ sku }: { sku: string }) => {
     return <EffectiveDrones />
   } else if (sku === "robots-tech") {
     return <RobotTech />
+  } else if (sku === "innovation") {
+    return <Innovation />
   }
 }
 

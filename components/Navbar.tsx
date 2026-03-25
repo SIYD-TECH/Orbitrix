@@ -109,7 +109,7 @@ const Navbar = ({ theme, setNavbarActive }: Props) => {
             className="text-gray-700 mt-8" 
           />
 
-            {/* socials */}
+          {/* socials */}
           <div className="mt-8 flex-start gap-6">
             <motion.a
               variants={mobileNavSocials} 

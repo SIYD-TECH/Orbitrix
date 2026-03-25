@@ -3,7 +3,6 @@
 import BlogContent from "@/components/BlogContent";
 import BlogHeader from "@/components/BlogHeader";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import { blogs } from "@/data/blogs";
 import { useParams, useRouter } from "next/navigation"
 

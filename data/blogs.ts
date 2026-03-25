@@ -2,6 +2,13 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
+    _id: "innovation-that-actually-matters-022",
+    sku: "innovation",
+    img: "/innovation1.png",
+    title: "Innovation That Actually Matters",
+    desc: "Innovation is often mistaken for novelty. new ideas...",
+    date: "March 25, 2026"
+  }, {
     _id: "building-the-future-from-where-we-stand-99",
     sku: "robots-tech",
     img: "/humanoid.png",

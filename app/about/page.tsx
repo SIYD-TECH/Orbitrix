@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import { FcIdea } from "react-icons/fc";
 import { FiTarget } from "react-icons/fi";
 
-const words = ["cosmic journey", "astral flight", "galactic adenture"]
+const words = ["cosmic journey", "astral flight", "galactic adenture"];
 
 const AboutPage = () => {
   const [text, setText] = useState<string>("")
