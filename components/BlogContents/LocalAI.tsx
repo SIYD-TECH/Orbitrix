@@ -12,7 +12,7 @@ const LocalAI = () => {
           What if technology truly understood you, not just your words, but your language, your culture, and your everyday reality?
         </p>
 
-        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>
+        <p className='font-jsl text-gray-600 mt-4 text-[15px] leading-6.5'>
           At Orbitrix, we’ve been thinking differently.
         </p>
 
@@ -40,7 +40,7 @@ const LocalAI = () => {
           Technology for Everyone
         </p>
 
-        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>
+        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>
           Not everyone is fluent in formal English.
         </p>
 
@@ -60,16 +60,16 @@ const LocalAI = () => {
           It creates a space where more people can:
         </p>
 
-        <p>Ask questions freely</p>
-        <p>Get clear answers</p>
-        <p>Solve everyday problems</p>
-        <p>Feel confident using technology</p>
+        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>Ask questions freely</p>
+        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>Get clear answers</p>
+        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>Solve everyday problems</p>
+        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>Feel confident using technology</p>
 
         <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>
           This is not just convenience.
         </p>
 
-        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>
+        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>
           It’s accessibility.
         </p>
 
@@ -127,7 +127,7 @@ const LocalAI = () => {
           The Future Is Local
         </p>
 
-        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>
+        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>
           At Orbitrix, we believe the future of technology in Africa must be built with Africa in mind.
         </p>
 
