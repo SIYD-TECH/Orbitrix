@@ -1,3 +1,5 @@
+"use client";
+
 import BlogContent from "@/components/BlogContent";
 import BlogHeader from "@/components/BlogHeader";
 import Footer from "@/components/Footer";
