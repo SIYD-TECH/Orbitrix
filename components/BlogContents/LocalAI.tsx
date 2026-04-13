@@ -60,10 +60,10 @@ const LocalAI = () => {
           It creates a space where more people can:
         </p>
 
-        <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>Ask questions freely</p>
-        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>Get clear answers</p>
-        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>Solve everyday problems</p>
-        <p className='font-jsl text-gray-600 mt-2 text-[15px] leading-6.5'>Feel confident using technology</p>
+        <p className='font-jsl text-gray-600 mt-4 text-[15px] leading-6.5'>1. Ask questions freely</p>
+        <p className='font-jsl text-gray-600 mt-1 text-[15px] leading-6.5'>2. Get clear answers</p>
+        <p className='font-jsl text-gray-600 mt-1 text-[15px] leading-6.5'>3. Solve everyday problems</p>
+        <p className='font-jsl text-gray-600 mt-1 text-[15px] leading-6.5'>4. Feel confident using technology</p>
 
         <p className='font-jsl text-gray-600 mt-6 text-[15px] leading-6.5'>
           This is not just convenience.
