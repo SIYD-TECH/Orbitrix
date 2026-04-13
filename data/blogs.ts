@@ -2,6 +2,13 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
+    _id: "technology-that-speaks-your-language-51",
+    sku: "localai",
+    img: "/localai.png",
+    title: "Technology That Speaks Your Language",
+    desc: "What if technology truly understood you, not jus...",
+    date: "April 12, 2026"
+  }, {
     _id: "innovation-that-actually-matters-022",
     sku: "innovation",
     img: "/innovation1.png",
