@@ -11,7 +11,7 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const text = "INNOVATE. AUTOMATE. ELEVATE";
+const text = "INNOVATE. AUTOMATE. ELEVATE.";
 
 const page = () => {
   const [videoModalActive, setVideoModalActive] = useState<boolean>(false)
@@ -54,24 +54,24 @@ const page = () => {
 
         <div className="hero-section-overlay">
           <MotionWrapper variants={heroText}>
-            <p className="text-sm md:text-lg font-outfit mb-2 lg:mb-4">
+            <p className="max-[330px]:text-[12px] text-sm md:text-lg font-outfit mb-2 lg:mb-4">
               <span>{displayedText}</span>
               <span className="ml-1 animate-blink text-lg lg:text-2xl">|</span>
             </p>
           </MotionWrapper>
 
           <MotionWrapper variants={heroText}>
-            <h1 className="lg:mt-0 text-4xl md:text-5xl lg:text-8xl md:text-6xl flex-start">
+            <h1 className="lg:mt-0 max-[330px]:text-3xl text-4xl md:text-5xl lg:text-8xl flex-start">
               <span>WE</span>
 
-              <img src="/astro.png" className="animate-jump h-15 md:h-18 lg:h-25" />
+              <img src="/astro.png" className="animate-jump max-[400px]:h-10 h-15 md:h-18 lg:h-25" />
 
               <span>BUILD</span>
             </h1>
           </MotionWrapper>   
 
           <MotionWrapper variants={heroText}>
-            <h1 className="mt-4 text-4xl md:text-5xl lg:text-8xl md:text-6xl">
+            <h1 className="mt-4 max-[330px]:text-3xl text-4xl md:text-5xl lg:text-8xl">
               WHAT'S
               <span className="sm:hidden cl
               ml-3">NEXT</span>
@@ -79,7 +79,7 @@ const page = () => {
           </MotionWrapper>
 
           <MotionWrapper variants={heroText}>
-            <h1 className="mt-4 text-4xl md:text-5xl lg:text-8xl md:text-6xl max-sm:hidden">
+            <h1 className="mt-4 text-4xl md:text-5xl lg:text-8xl max-sm:hidden">
               NEXT
             </h1>
           </MotionWrapper>
@@ -91,7 +91,7 @@ const page = () => {
       <section className="md:mt-40">
         {/* mobile */}
         <div className="md:hidden relative">
-          <video autoPlay muted loop className="w-full h-200">
+          <video autoPlay muted loop className="w-full max-[330px]:h-230 h-200">
             <source src="/robot-potriat.mp4" />
           </video>
 
@@ -103,7 +103,7 @@ const page = () => {
                 WHERE INNOVATION MEETS REALITY
               </h1>
 
-              <p className="font-jsl mt-2 text-sm text-white w-[80%]">
+              <p className="font-jsl mt-4 text-sm text-white w-[80%]">
                 From city streets to the edge of the atmosphere, Orbitrix technologies are built for real-world performance. Designed for endurance, precision, and adaptability, our systems turn ambitious ideas into deployed solutions — proving that the future of engineering is already in motion.
               </p>
 
@@ -250,11 +250,11 @@ const page = () => {
             className="absolute top-0 bottom-0 left-0 right-0 bg-linear-to-b from-transparent from-0% via-black/30 via-30% to-black to-100%"
           >
             <div className="absolute bottom-0 left-6">
-              <h1 className="text-white text-3xl font-jsans font-bold">
+              <h1 className="text-white max-[330px]:text-2xl text-3xl font-jsans font-bold">
                 REVOLUTIONALIZING HUMAN CAPABILITIES
               </h1>
 
-              <p className="font-jsl mt-2 text-sm text-white w-[80%]">
+              <p className="font-jsl mt-2 max-[300px]:text-[12px] text-sm text-white w-[80%]">
                 At Orbitrix, we don’t just build technology — we engineer solutions that expand what’s possible. Our focus areas are driven by innovation, guided by science, and grounded in real-world applications. From robotics to space exploration, we’re shaping the next era of intelligent systems.
               </p>
 
@@ -435,7 +435,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="space-2.png" className="h-18" />
+          <img src="space-2.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -446,7 +446,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="space-com.png" className="h-18" />
+          <img src="space-com.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -457,7 +457,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="space.png" className="h-18" />
+          <img src="space.png" className=" max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -468,7 +468,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="axiom.png" className="h-18" />
+          <img src="axiom.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -479,7 +479,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="esa.png" className="h-18" />
+          <img src="esa.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -490,7 +490,7 @@ const page = () => {
           variants={ghostVariants} 
           className="flex-center relative"
         >
-          <img src="nasa.png" className="h-18" />
+          <img src="nasa.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
