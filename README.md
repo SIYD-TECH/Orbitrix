@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div>
 
-## Getting Started
+<img src="https://orbitrixng.com/logo.png" alt="Orbitrix" width="160" />
 
-First, run the development server:
+<br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Welcome to Orbitrix
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We're a forward-thinking technology agency specialising in **AI, robotics, and connected systems** — designing smart, intelligent solutions that help businesses evolve, automate, and unlock new possibilities.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+From intelligent web platforms to IoT-driven systems, we turn complex technology into practical tools that actually work in the real world.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Let's Connect
 
-To learn more about Next.js, take a look at the following resources:
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Orbitrix_)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/orbitrixng)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/orbitrix__)
+[![Website](https://img.shields.io/badge/Website-ff4d00?style=for-the-badge&logo=safari&logoColor=white)](https://orbitrixng.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+</div>
