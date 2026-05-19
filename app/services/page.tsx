@@ -42,14 +42,20 @@ const ServicePage = () => {
       <Header theme="light" />
 
       <div>
-        <h1 className="text-center font-outfit text-2xl md:text-4xl lg:text-5xl">Our Services</h1>
+        <h1 className="text-center font-outfit text-2xl md:text-4xl lg:text-5xl">
+          Our Services
+        </h1>
         <ChevronDown className="mx-auto" />
       </div>
 
       <div className="px-6 md:px-10 xl:px-20 mt-6">
-        <p className="font-outfit text-gray-700 font-bold text-[13px] lg:text-md">OUR CORE CAPABILITIES</p>
+        <p className="font-outfit text-gray-700 font-bold text-[13px] lg:text-md">
+          OUR CORE CAPABILITIES
+        </p>
 
-        <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl md:w-[60%] mt-2">Where advanced tech meets real-world impact</h1>
+        <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl md:w-[60%] mt-2">
+          Where advanced tech meets real-world impact
+        </h1>
       </div>
 
       <section className="flex-center mt-15">
@@ -89,10 +95,15 @@ const ServicePage = () => {
       </section>*/}
 
       <section className="bg-gray-50 pt-10 sm:pt-20 mt-4">
-        <p className="font-jsl text-center text-[14px] font-bold">WHAT WE OFFER</p>
+        <p className="font-jsl text-center text-[14px] font-bold">
+          WHAT WE OFFER
+        </p>
 
         <h1 className="mt-2 md:mt-4 lg:mt-6 text-center font-jsans w-[85%] sm:w-[90%] mx-auto text-2xl sm:text-3xl md:text-4xl lg:font-bold xl:text-5xl">
-          <span>Adventure beyond the stars, adrenaline that defies gravity – welcome to our</span>
+          <span>
+            Adventure beyond the stars, adrenaline that defies gravity – welcome
+            to our
+          </span>
           <span className="border-b-2 pb-1 ml-2">{text}</span>
           <span className="ml-1 animate-blink">|</span>
         </h1>
@@ -101,14 +112,16 @@ const ServicePage = () => {
       <section className="bg-gray-50 pt-10 sm:pt-20 pb-20">
         {/* grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 px-6 md:px-10 xl:px-25">
-
           <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/drone-icon.png" className="h-20 lg:h-20 mx-auto" />
 
-            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Logistics Drone</h1>
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">
+              Logistics Drone
+            </h1>
 
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
-              Smart aerial delivery systems designed to move goods faster, safer, and beyond the limitatins of rad traffic.
+              Smart aerial delivery systems designed to move goods faster,
+              safer, and beyond the limitatins of rad traffic.
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
@@ -117,10 +130,13 @@ const ServicePage = () => {
           <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/dog-icon.png" className="h-20 lg:h-20 mx-auto" />
 
-            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Robotics Dogs</h1>
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">
+              Robotics Dogs
+            </h1>
 
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
-              Intelligent robotic companions built to assist with tasks, support operations, and explore human - robot interactions.
+              Intelligent robotic companions built to assist with tasks, support
+              operations, and explore human - robot interactions.
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
@@ -129,30 +145,32 @@ const ServicePage = () => {
           <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/robot-icon.png" className="h-19 lg:h-20 mx-auto" />
 
-            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">Humanoid Robots</h1>
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">
+              Humanoid Robots
+            </h1>
 
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
-              Advanced robotic systems developed to study automation, assistance, and future human - machine collaboration
+              Advanced robotic systems developed to study automation,
+              assistance, and future human - machine collaboration
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
-          </div>          
+          </div>
         </div>
       </section>
 
       <section>
         <div className="marquee">
-          <div className="marquee-content2 font-outfit text-5xl lg:text-9xl md:text-7xl mt-6"
-          >
+          <div className="marquee-content2 font-outfit text-5xl lg:text-9xl md:text-7xl mt-6">
             <span>
               <ShipWheel className="animate-spin" />
             </span>
             <span>NEUROSCIENCE</span>
-              <span>
+            <span>
               <ShipWheel className="animate-spin" />
             </span>
-              <span>NEURO-TECHNOLOGY</span>
-              <span>
+            <span>NEURO-TECHNOLOGY</span>
+            <span>
               <ShipWheel className="animate-spin" />
             </span>
             <span>SPACE EXPLORATION</span>
@@ -163,8 +181,7 @@ const ServicePage = () => {
         </div>
 
         <div className="marquee">
-          <div className="marquee-content2-reverse font-outfit text-5xl md:text-7xl lg:text-9xl mt-3"
-          >
+          <div className="marquee-content2-reverse font-outfit text-5xl md:text-7xl lg:text-9xl mt-3">
             <span>
               <ShipWheel className="animate-spin" />
             </span>
@@ -172,8 +189,8 @@ const ServicePage = () => {
             <span>
               <ShipWheel className="animate-spin" />
             </span>
-              <span>DRONES</span>
-              <span>
+            <span>DRONES</span>
+            <span>
               <ShipWheel className="animate-spin" />
             </span>
             <span>ROBOTICS</span>
@@ -191,70 +208,77 @@ const ServicePage = () => {
 
         <div>
           <div className="px-6 mt-6">
-            <p className="font-outfit text-gray-700 font-bold text-[13px] lg:text-md">QUESTIONS & ANSWERS</p>
+            <p className="font-outfit text-gray-700 font-bold text-[13px] lg:text-md">
+              QUESTIONS & ANSWERS
+            </p>
 
-            <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl mt-2">What you need to know about our tours</h1>
+            <h1 className="font-outfit text-2xl md:text-4xl lg:text-5xl mt-2">
+              What you need to know about our tours
+            </h1>
           </div>
 
           {/* accordion */}
           <div className="px-8">
-
             {/* 1 */}
-            <div 
-              onClick={() => setStep(1)} 
+            <div
+              onClick={() => setStep(step === 1 ? 0 : 1)}
               className="mt-8 border-b border-t py-4 border-gray-300 cursor-pointer"
             >
               <div className="text-lg font-outfit flex-between">
                 <h1>What’s a zero-gravity flight?</h1>
-                {step == 1 ? <MoveDownRight /> : <ArrowRight />} 
-              </div> 
+                {step == 1 ? <MoveDownRight /> : <ArrowRight />}
+              </div>
 
-              <p className={`${step == 1 ? "" : "hidden"} font-jsl mt-4 text-sm text-gray-500 duration-500`}>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+              <p
+                className={`${step == 1 ? "" : "hidden"} font-jsl mt-4 text-sm text-gray-500 duration-500`}
+              >
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam.
               </p>
             </div>
 
             {/* 2 */}
-            <div 
-              onClick={() => setStep(2)} 
+            <div
+              onClick={() => setStep(step === 2 ? 0 : 2)}
               className="border-b py-4 border-gray-300 cursor-pointer"
             >
               <div className="text-lg font-outfit flex-between">
-                <h1>
-                  Are there any restrictions for space tours?
-                </h1>
-                {step == 2 ? <MoveDownRight /> : <ArrowRight />} 
-              </div> 
+                <h1>Are there any restrictions for space tours?</h1>
+                {step == 2 ? <MoveDownRight /> : <ArrowRight />}
+              </div>
 
-              <p className={`${step == 2 ? "" : "hidden"} font-jsl mt-4 text-sm text-gray-500 duration-500`}>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+              <p
+                className={`${step == 2 ? "" : "hidden"} font-jsl mt-4 text-sm text-gray-500 duration-500`}
+              >
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam.
               </p>
             </div>
 
             {/* 3 */}
-            <div 
-              onClick={() => setStep(3)} 
+            <div
+              onClick={() => setStep(step === 3 ? 0 : 3)}
               className="border-b py-4 border-gray-300 cursor-pointer"
             >
               <div className="text-lg font-outfit flex-between">
-                <h1>
-                  What’s the cancellation policy?
-                </h1>
-                {step == 3 ? <MoveDownRight /> : <ArrowRight />} 
-              </div> 
+                <h1>What’s the cancellation policy?</h1>
+                {step == 3 ? <MoveDownRight /> : <ArrowRight />}
+              </div>
 
-              <p className={`${step == 3 ? "" : "hidden"} font-jsl mt-4 text-sm text-gray-500 duration-500`}>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+              <p
+                className={`${step == 3 ? "" : "hidden"} font-jsl mt-4 text-sm text-gray-500 duration-500`}
+              >
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam.
               </p>
             </div>
           </div>
-
         </div>
       </section>
 
       <Footer />
     </main>
-  )
+  );
 }
 
 export default ServicePage
