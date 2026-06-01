@@ -6,6 +6,7 @@ import LocalAI from "./BlogContents/LocalAI"
 import RobotDogs from "./BlogContents/RobotDogs"
 import RobotTech from "./BlogContents/RobotsTech"
 import SolarDrones from "./BlogContents/SolarDrones"
+import WhatWeBuild from "./BlogContents/WhatWeBuild";
 
 const BlogContent = ({ sku }: { sku: string }) => {
   if (sku == "robot-dogs") {
@@ -25,7 +26,7 @@ const BlogContent = ({ sku }: { sku: string }) => {
   } else if (sku === "localai") {
     return <LocalAI />;
   } else if (sku === "what-we-build") {
-    return <LocalAI />;
+    return <WhatWeBuild />;
   }
 }
 
