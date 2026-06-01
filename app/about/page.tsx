@@ -229,7 +229,7 @@ const AboutPage = () => {
           <div className="flex-center flex-col">
             <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
               <img
-                src="/adedamola-olarinde.jpg"
+                src="/ademola-oladeinde.jpeg"
                 className="h-full w-full object-cover object-[0%_1%]"
               />
             </div>
@@ -313,7 +313,7 @@ const AboutPage = () => {
           <div className="flex-center flex-col">
             <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
               <img
-                src="/uche-emmanuel.jpeg"
+                src="/udeh-emmanuel.jpeg"
                 className="h-full w-full object-cover object-[0%_0%]"
               />
             </div>
