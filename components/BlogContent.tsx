@@ -9,21 +9,23 @@ import SolarDrones from "./BlogContents/SolarDrones"
 
 const BlogContent = ({ sku }: { sku: string }) => {
   if (sku == "robot-dogs") {
-    return <RobotDogs />
+    return <RobotDogs />;
   } else if (sku == "drone-logistics") {
-    return <DroneLogistics />
+    return <DroneLogistics />;
   } else if (sku === "solar-drones") {
-    return <SolarDrones />
+    return <SolarDrones />;
   } else if (sku === "drone-speed") {
-    return <DroneSpeed />
+    return <DroneSpeed />;
   } else if (sku === "effective-drones") {
-    return <EffectiveDrones />
+    return <EffectiveDrones />;
   } else if (sku === "robots-tech") {
-    return <RobotTech />
+    return <RobotTech />;
   } else if (sku === "innovation") {
-    return <Innovation />
+    return <Innovation />;
   } else if (sku === "localai") {
-    return <LocalAI />
+    return <LocalAI />;
+  } else if (sku === "what-we-build") {
+    return <LocalAI />;
   }
 }
 

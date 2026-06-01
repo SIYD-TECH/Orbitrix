@@ -57,5 +57,13 @@ export const blogs: Blog[] = [
     title: "Have you witnessed a 24 hrs powered solar drones?",
     desc: "Did You Know That..... Most drones fly for thirty minutes before their batteries...",
     date: "December 11, 2025"
+  },
+  {
+    _id: "what-we-build-is-only-part-of-the-story",
+    sku: "what-we-build",
+    img: "/drone3.jpg",
+    title: "What we build is only part of the story. ",
+    desc: "The bigger question is: What becomes possible because of it?",
+    date: "June 1, 2026"
   }
 ]
