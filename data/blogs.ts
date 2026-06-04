@@ -61,7 +61,7 @@ export const blogs: Blog[] = [
   {
     _id: "what-we-build-is-only-part-of-the-story",
     sku: "what-we-build",
-    img: "/drone3.jpg",
+    img: "/futuristic-scene-with-high-tech-robot-used-construction-industry.jpg.jpeg",
     title: "What we build is only part of the story. ",
     desc: "The bigger question is: What becomes possible because of it?",
     date: "June 1, 2026"
