@@ -2,6 +2,13 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
+    _id: "what-we-build-is-only-part-of-the-story",
+    sku: "what-we-build",
+    img: "/futuristic-scene-with-high-tech-robot-used-construction-industry.jpg.jpeg",
+    title: "What we build is only part of the story. ",
+    desc: "The bigger question is: What becomes possible because of it?",
+    date: "June 1, 2026"
+  }, {
     _id: "technology-that-speaks-your-language-51",
     sku: "localai",
     img: "/localai.png",
@@ -57,13 +64,5 @@ export const blogs: Blog[] = [
     title: "Have you witnessed a 24 hrs powered solar drones?",
     desc: "Did You Know That..... Most drones fly for thirty minutes before their batteries...",
     date: "December 11, 2025"
-  },
-  {
-    _id: "what-we-build-is-only-part-of-the-story",
-    sku: "what-we-build",
-    img: "/futuristic-scene-with-high-tech-robot-used-construction-industry.jpg.jpeg",
-    title: "What we build is only part of the story. ",
-    desc: "The bigger question is: What becomes possible because of it?",
-    date: "June 1, 2026"
   }
 ]
