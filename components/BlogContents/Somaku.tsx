@@ -28,19 +28,23 @@ const Somaku = () => {
           suggestion, and observation is helping shape a better product.
         </p>
 
-        <img src="/chatimage.png" className="mt-8 w-full" />
+        <img src="/somaku-logo.jpeg" className="mt-8 w-full" />
 
         <p className="font-jsl text-gray-600 mt-6 text-[15px] leading-6.5">
-          What's Happening Now? We're currently in our second testing phase.
-          This stage is focused on refining performance, improving interactions,
-          and ensuring Somaku delivers an experience that feels natural,
-          reliable, and useful. Building AI isn't just about making it smarter.
-          It's about making it work better for the people who rely on it.
+          What's Happening Now?
+        </p>
+
+        <p className="font-jsl text-gray-600 mt-1 text-[15px] leading-6.5">
+          We're currently in our second testing phase. This stage is focused on
+          refining performance, improving interactions, and ensuring Somaku
+          delivers an experience that feels natural, reliable, and useful.
+          Building AI isn't just about making it smarter. It's about making it
+          work better for the people who rely on it.
         </p>
 
         <p className="font-jsl text-gray-600 mt-6 text-[15px] leading-6.5">
-          Looking Ahead Somaku is growing with every test, every iteration,
-          and every lesson we learn. We're not interested in rushing to launch.
+          Looking Ahead Somaku is growing with every test, every iteration, and
+          every lesson we learn. We're not interested in rushing to launch.
           We're committed to building something thoughtful, dependable, and
           genuinely valuable for the people it's designed to serve. The journey
           continues, and we're excited to share more as Somaku evolves.
@@ -60,10 +64,13 @@ const Somaku = () => {
 
         <p className="font-jsl text-gray-600 mt-6 text-[15px] leading-6.5">
           When people see an Orbitrix drone take off for a multi-day mission,
-          they ask how it’s possible. The answer is simple: Orbitrix engineers
-          refused to accept the limitations everyone else assumed were fixed. We
-          built what we needed because waiting for someone else to build it
-          wasn’t an option.
+          they ask how it’s possible.
+        </p>
+
+        <p className="font-jsl text-gray-600 mt-1  text-[15px] leading-6.5">
+          The answer is simple: Orbitrix engineers refused to accept the
+          limitations everyone else assumed were fixed. We built what we needed
+          because waiting for someone else to build it wasn’t an option.
         </p>
 
         <p className="font-jsl text-gray-600 mt-6 text-[15px] leading-6.5">

@@ -4,7 +4,7 @@ export const blogs: Blog[] = [
   {
     _id: "somaku-ai",
     sku: "somaku",
-    img: "/somaku-logo.jpeg",
+    img: "/chatimage.png",
     title: "Building Somaku: Every Conversation Makes It Better",
     desc: "Great technology isn't built in a day.",
     date: "June 18, 2026",
