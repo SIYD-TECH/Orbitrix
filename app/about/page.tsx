@@ -204,7 +204,6 @@ const AboutPage = () => {
       </section>
 
       {/* our team section */}
-      {/* our team section */}
       <section className="bg-gray-50 pt-20 sm:pt-30 pb-20">
         <h1 className="text-center font-jsans text-2xl md:text-3xl xl:text-4xl">
           Meet the
