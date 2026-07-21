@@ -7,7 +7,7 @@ export const blogs: Blog[] = [
     img: "/chatimage.png",
     title: "Building Somaku: Every Conversation Makes It Better",
     desc: "Great technology isn't built in a day.",
-    date: "June 18, 2026",
+    date: "June 21, 2026",
   },
   {
     _id: "what-we-build-is-only-part-of-the-story",
