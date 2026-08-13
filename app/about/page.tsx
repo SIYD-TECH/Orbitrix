@@ -204,12 +204,13 @@ const AboutPage = () => {
       </section>
 
       {/* our team section */}
-      <section className="bg-gray-50 pt-20 sm:pt-30">
+      <section className="bg-gray-50 pt-20 sm:pt-30 pb-20">
         <h1 className="text-center font-jsans text-2xl md:text-3xl xl:text-4xl">
           Meet the
           <span className="text-stone-400"> team</span>
         </h1>
 
+        {/* ROW 1: 1 Member (CEO) */}
         <div className="mt-16 w-[80%] md:w-[60%] lg:w-[50%] mx-auto">
           <div className="h-45 w-45 rounded-full overflow-hidden mx-auto">
             <img
@@ -225,104 +226,135 @@ const AboutPage = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-200 mx-auto mt-15">
-          <div className="flex-center flex-col">
-            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-              <img
-                src="/ademola-oladeinde.jpeg"
-                className="h-full w-full object-cover object-[0%_1%]"
-              />
+        {/* Pyramid Container for Rows 2, 3, and 4 */}
+        <div className="flex flex-col gap-10 max-w-4xl mx-auto mt-15 px-6">
+          {/* ROW 2: 2 Members (Centered) */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-md sm:max-w-xl mx-auto w-full">
+            <div className="flex flex-col items-center">
+              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+                <img
+                  src="/ademola-oladeinde.jpeg"
+                  className="h-full w-full object-cover object-[0%_1%]"
+                />
+              </div>
+              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Oladeinde Adedamola
+              </h1>
+              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
+                PM & Cybersecurity Engineer
+              </p>
             </div>
-            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-              Oladeinde Adedamola
-            </h1>
-            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-              PM & Cybersecurity Engineer
-            </p>
+
+            <div className="flex flex-col items-center">
+              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+                <img
+                  src="/ambibola_favour.jpg"
+                  className="h-full w-full object-cover object-[10%_40%]"
+                />
+              </div>
+              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Abimbola Favour
+              </h1>
+              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
+                Mechanical Engineer
+              </p>
+            </div>
           </div>
-          <div className="flex-center flex-col">
-            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-              <img
-                src="/ambibola_favour.jpg"
-                className="h-full w-full object-cover object-[10%_40%]"
-              />
+
+          {/* ROW 3: 3 Members */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 w-full">
+            <div className="flex flex-col items-center">
+              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+                <img
+                  src="/habeeb_amoo.jpg"
+                  className="h-full w-full object-cover object-[0%_25%]"
+                />
+              </div>
+              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Habeeb Amoo
+              </h1>
+              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
+                Software Engineer
+              </p>
             </div>
-            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-              Abimbola Favour
-            </h1>
-            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-              Mechanical Engineer
-            </p>
+
+            <div className="flex flex-col items-center">
+              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+                <img
+                  src="/somefun_dolapo.jpg"
+                  className="h-full w-full object-cover object-[0%_1%]"
+                />
+              </div>
+              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Somefun Dolapo
+              </h1>
+              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
+                Creative Studio Manager
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+                <img
+                  src="/israel_victor.jpg"
+                  className="h-full w-full object-cover object-[0%_0%]"
+                />
+              </div>
+              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Israel Victor
+              </h1>
+              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
+                Aerospace Engineer
+              </p>
+            </div>
           </div>
-          <div className="flex-center flex-col">
-            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-              <img
-                src="/habeeb_amoo.jpg"
-                className="h-full w-full object-cover object-[0%_25%]"
-              />
+
+          {/* ROW 4: 3 Members */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 w-full">
+            <div className="flex flex-col items-center">
+              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+                <img
+                  src="/enoch_ayomide.jpg"
+                  className="h-full w-full object-cover object-[0%_0%]"
+                />
+              </div>
+              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Enoch Ayomide
+              </h1>
+              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
+                Electrical Engineer
+              </p>
             </div>
-            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-              Habeeb Amoo
-            </h1>
-            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-              Software Engineer
-            </p>
-          </div>
-          <div className="flex-center flex-col">
-            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-              <img
-                src="/somefun_dolapo.jpg"
-                className="h-full w-full object-cover object-[0%_1%]"
-              />
+
+            <div className="flex flex-col items-center">
+              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+                <img
+                  src="/udeh-emmanuel.jpeg"
+                  className="h-full w-full object-cover object-[0%_0%]"
+                />
+              </div>
+              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Udeh Emmanuel
+              </h1>
+              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
+                Robotics & AI Engineer
+              </p>
             </div>
-            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-              Somefun Dolapo
-            </h1>
-            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-              Creative Studio Manager
-            </p>
-          </div>
-          <div className="flex-center flex-col">
-            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-              <img
-                src="/israel_victor.jpg"
-                className="h-full w-full object-cover object-[0%_0%]"
-              />
+
+            <div className="flex flex-col items-center">
+              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+                <img
+                  src="/anderson_precious.png"
+                  className="h-full w-full object-cover object-[0%_0%]"
+                />
+              </div>
+              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Anderson Precious
+              </h1>
+              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
+                Junior legal associate
+              </p>
             </div>
-            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-              Israel Victor
-            </h1>
-            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-              Aerospace Engineer
-            </p>
-          </div>
-          <div className="flex-center flex-col">
-            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-              <img
-                src="/enoch_ayomide.jpg"
-                className="h-full w-full object-cover object-[0%_0%]"
-              />
-            </div>
-            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-              Enoch Ayomide
-            </h1>
-            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-              Electrical Engineer
-            </p>
-          </div>
-          <div className="flex-center flex-col">
-            <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-              <img
-                src="/udeh-emmanuel.jpeg"
-                className="h-full w-full object-cover object-[0%_0%]"
-              />
-            </div>
-            <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-              Udeh Emmanuel
-            </h1>
-            <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-              Robotics & AI Engineer
-            </p>
           </div>
         </div>
       </section>
